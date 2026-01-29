@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 252,
+    "build": 253,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -467,6 +467,37 @@
         "name": "Art assets\\Furniture\\Potion_Book_Lying_Down.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "CUTE FROG.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CUTE FROG.ttf",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Testing.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Testing.json\"}",
+        "name": "Testing",
+        "userAdded": false
+      },
+      {
+        "file": "Placeholder text box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Placeholder text box.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Placeholder text box2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Placeholder text box2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -515,9 +546,10 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4782636857895412,
+        "zoomFactor": 0.6032381641325065,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [
         {
@@ -581,6 +613,16 @@
           "name": "pageCounter",
           "type": "number",
           "value": 9
+        },
+        {
+          "name": "textScrollSpeed",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "tutorialStart",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -1073,7 +1115,7 @@
           "initialVariables": []
         },
         {
-          "angle": 35,
+          "angle": 307,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -1081,8 +1123,8 @@
           "name": "closeBookButton",
           "persistentUuid": "42afbcba-467c-4116-a13d-893b3c2ca6f3",
           "width": 0,
-          "x": 45,
-          "y": 39,
+          "x": 40,
+          "y": 598,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -1115,7 +1157,7 @@
           "persistentUuid": "9a90c18c-d811-4d0b-a07e-a2e5a675593d",
           "width": 115,
           "x": -422,
-          "y": 24,
+          "y": 15,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -1131,8 +1173,8 @@
           "name": "bottleEmpty",
           "persistentUuid": "c1831a39-df30-4bd5-ad97-8d1961e6ca6f",
           "width": 163,
-          "x": 72,
-          "y": 397,
+          "x": 65,
+          "y": 287,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -1155,7 +1197,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 272,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -1163,9 +1205,42 @@
           "name": "flipRight",
           "persistentUuid": "5a4e65f9-d9e2-4c98-a840-f4256cd65228",
           "width": 0,
-          "x": 801,
-          "y": 625,
+          "x": 793,
+          "y": 23,
           "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 89,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "The Book",
+          "name": "flipLeft",
+          "persistentUuid": "0f38a7e9-576f-464d-856b-bf67daa3a4ad",
+          "width": 0,
+          "x": 38,
+          "y": 19,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0.8928571428571429,
+          "height": 26.78571428571429,
+          "keepRatio": true,
+          "layer": "Dialogue",
+          "name": "dialogue",
+          "persistentUuid": "964d7837-4f52-4e48-9020-bdeeadcb51d3",
+          "width": 650,
+          "x": 158,
+          "y": 514,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1175,13 +1250,13 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "The Book",
-          "name": "flipLeft",
-          "persistentUuid": "0f38a7e9-576f-464d-856b-bf67daa3a4ad",
+          "layer": "Dialogue",
+          "name": "textBox",
+          "persistentUuid": "12d91eb8-f722-495f-bece-91162849cf3b",
           "width": 0,
-          "x": 27,
-          "y": 621,
-          "zOrder": 28,
+          "x": 67,
+          "y": 426,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3946,11 +4021,81 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "dialogue",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Placeholder text!!!!! Just setting things up and seeing how this will wrap around as it reaches the edge of the screen. Is this enough words yet? I reckon so!",
+          "font": "CUTE FROG.ttf",
+          "textAlignment": "left",
+          "characterSize": 24,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Placeholder text!!!!! Just setting things up and seeing how this will wrap around as it reaches the edge of the screen. Is this enough words yet? I reckon so!",
+            "font": "CUTE FROG.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 24,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 40,
+          "height": 300,
+          "leftMargin": 40,
+          "name": "textBox",
+          "rightMargin": 40,
+          "texture": "Placeholder text box2.png",
+          "tiled": false,
+          "topMargin": 40,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 800,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Dialogue",
+            "children": [
+              {
+                "objectName": "dialogue"
+              },
+              {
+                "objectName": "textBox"
+              }
+            ]
+          },
           {
             "folderName": "The book",
             "children": [
@@ -4090,7 +4235,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Just comments",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4127,7 +4271,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Setup (That has to be in the beginning)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4159,6 +4302,50 @@
                   },
                   "parameters": [
                     "bottleEmpty"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "dialogue"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::LoadDialogueFromJsonFile"
+                  },
+                  "parameters": [
+                    "",
+                    "Testing"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "textBox"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "tutorialStart",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Knock\""
                   ]
                 }
               ],
@@ -5878,6 +6065,344 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Dialogue",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Timer for Knock on door to start tutorial dialogue"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Knock\"",
+                    ">=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "tutorialStart",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Starts tutorial dialogue when the timer is up"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "tutorialStart",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::IsDialogueRunning"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "dialogue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "textBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"Start\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "tutorialStart",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Hides dialogue when it is finished (need to add a buffer, it goes by too quick)"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::IsDialogueRunning"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "dialogue"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "textBox"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Dialogue scrolls and can be sped up as well as goes to the next line"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::IsDialogueLineType"
+                  },
+                  "parameters": [
+                    "\"text\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "dialogue",
+                    "Text",
+                    "=",
+                    "DialogueTree::ClippedLineText()"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"scrollText\"",
+                        ">=",
+                        "Variable(textScrollSpeed)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::ScrollClippedText"
+                      },
+                      "parameters": []
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"scrollText\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::GoToNextLine"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "textScrollSpeed",
+                        "=",
+                        "0.01"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "textScrollSpeed",
+                        "=",
+                        "0.05"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "folded": true,
           "name": "Setup (That has to be at the end)",
           "source": "",
@@ -5921,11 +6446,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -6156,6 +6676,60 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Dialogue",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -6195,6 +6769,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
