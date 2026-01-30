@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6032381641325065,
+    "zoomFactor": 1.2104671805018887,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -36,7 +36,7 @@
           "name": "Orchid"
         },
         {
-          "name": "bottleEmpty"
+          "name": "thistle"
         }
       ]
     },
@@ -48,6 +48,14 @@
         },
         {
           "name": "book"
+        }
+      ]
+    },
+    {
+      "name": "potions",
+      "objects": [
+        {
+          "name": "bottleEmpty"
         }
       ]
     }
@@ -112,6 +120,11 @@
       "name": "soundVolume",
       "type": "number",
       "value": 150
+    },
+    {
+      "name": "popUp",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
@@ -621,22 +634,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "latch",
-      "persistentUuid": "540fe968-2f14-4b0b-ac4d-07b8fd42cbe6",
-      "width": 0,
-      "x": 66,
-      "y": 362,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 131,
@@ -662,8 +659,8 @@
       "name": "bottleEmpty",
       "persistentUuid": "c1831a39-df30-4bd5-ad97-8d1961e6ca6f",
       "width": 163,
-      "x": 65,
-      "y": 287,
+      "x": 68,
+      "y": 285,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -680,7 +677,7 @@
       "width": 0,
       "x": -669,
       "y": 434,
-      "zOrder": 26,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -719,15 +716,31 @@
     },
     {
       "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Dialogue",
+      "name": "textBox",
+      "persistentUuid": "66611c45-4f50-433b-b7f8-1f7bfdbd5f85",
+      "width": 0,
+      "x": 59,
+      "y": 430,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": true,
-      "depth": 0.8928571428571429,
-      "height": 26.78571428571429,
+      "depth": 1,
+      "height": 30,
       "keepRatio": true,
       "layer": "Dialogue",
       "name": "dialogue",
-      "persistentUuid": "964d7837-4f52-4e48-9020-bdeeadcb51d3",
-      "width": 650,
-      "x": 158,
+      "persistentUuid": "537fb95d-6d3b-4cbd-a3ab-c82e98f6c2dc",
+      "width": 580,
+      "x": 162,
       "y": 514,
       "zOrder": 30,
       "numberProperties": [],
@@ -736,16 +749,17 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 83,
       "keepRatio": true,
-      "layer": "Dialogue",
-      "name": "textBox",
-      "persistentUuid": "12d91eb8-f722-495f-bece-91162849cf3b",
-      "width": 0,
-      "x": 72,
-      "y": 426,
-      "zOrder": 29,
+      "layer": "",
+      "name": "thistle",
+      "persistentUuid": "3d134623-eb12-488a-97ea-17b3e94620f2",
+      "width": 119,
+      "x": -577,
+      "y": 57,
+      "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2204,114 +2218,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "latch",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Closed",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Art assets\\Furniture\\Potion_Stand_Closed.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 18,
-                        "y": 18
-                      },
-                      {
-                        "x": 159,
-                        "y": 18
-                      },
-                      {
-                        "x": 159,
-                        "y": 78
-                      },
-                      {
-                        "x": 18,
-                        "y": 78
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Open",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Art assets\\Furniture\\Potion_Stand_Open.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 18,
-                        "y": 18
-                      },
-                      {
-                        "x": 159,
-                        "y": 18
-                      },
-                      {
-                        "x": 159,
-                        "y": 78
-                      },
-                      {
-                        "x": 18,
-                        "y": 78
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "trashBack",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3201,42 +3107,7 @@
         }
       ],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "DraggablePhysics",
-          "type": "DraggablePhysics::DraggablePhysics",
-          "PhysicsBehavior": "Physics2",
-          "MouseButton": "Left",
-          "MaxForce": 500,
-          "Frequency": 10,
-          "Damping": 1,
-          "MouseJointID": 1.00000000000091,
-          "EnableAutomaticDragging": false
-        },
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "bodyType": "Dynamic",
-          "bullet": false,
-          "fixedRotation": false,
-          "canSleep": false,
-          "shape": "Box",
-          "shapeDimensionA": 0,
-          "shapeDimensionB": 0,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "polygonOrigin": "Center",
-          "vertices": [],
-          "density": 2,
-          "friction": 0.3,
-          "restitution": 0.01,
-          "linearDamping": 0.1,
-          "angularDamping": 0.1,
-          "gravityScale": 1,
-          "layers": 1,
-          "masks": 1
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "",
@@ -3677,6 +3548,732 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Dragon",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Dragon_Placeholder.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 26,
+                        "y": 42
+                      },
+                      {
+                        "x": 485,
+                        "y": 42
+                      },
+                      {
+                        "x": 485,
+                        "y": 651
+                      },
+                      {
+                        "x": 26,
+                        "y": 651
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Goblin",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Goblin_Placeholder.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 38,
+                        "y": 33
+                      },
+                      {
+                        "x": 336,
+                        "y": 33
+                      },
+                      {
+                        "x": 336,
+                        "y": 491
+                      },
+                      {
+                        "x": 38,
+                        "y": 491
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Vampire",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Vampire_Placeholder.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 37,
+                        "y": 35
+                      },
+                      {
+                        "x": 217,
+                        "y": 35
+                      },
+                      {
+                        "x": 217,
+                        "y": 503
+                      },
+                      {
+                        "x": 37,
+                        "y": 503
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "teeth",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Teeth Placeholder.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 53
+                      },
+                      {
+                        "x": 197,
+                        "y": 53
+                      },
+                      {
+                        "x": 197,
+                        "y": 191
+                      },
+                      {
+                        "x": 12,
+                        "y": 191
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "startdust",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Stardust Placeholder.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 162,
+                        "y": 9
+                      },
+                      {
+                        "x": 162,
+                        "y": 211
+                      },
+                      {
+                        "x": 41,
+                        "y": 211
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "sage",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sage_Placeholder.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 36
+                      },
+                      {
+                        "x": 315,
+                        "y": 36
+                      },
+                      {
+                        "x": 315,
+                        "y": 274
+                      },
+                      {
+                        "x": 15,
+                        "y": 274
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "mugwortPlant",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mugwort_Plant_Placeholder.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 38,
+                        "y": 68
+                      },
+                      {
+                        "x": 309,
+                        "y": 68
+                      },
+                      {
+                        "x": 309,
+                        "y": 508
+                      },
+                      {
+                        "x": 38,
+                        "y": 508
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "mugwortLeaf",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mugwort_Leaf_Placeholder.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 38,
+                        "y": 21
+                      },
+                      {
+                        "x": 336,
+                        "y": 21
+                      },
+                      {
+                        "x": 336,
+                        "y": 326
+                      },
+                      {
+                        "x": 38,
+                        "y": 326
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ink",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ink Placeholder.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 11
+                      },
+                      {
+                        "x": 184,
+                        "y": 11
+                      },
+                      {
+                        "x": 184,
+                        "y": 183
+                      },
+                      {
+                        "x": 29,
+                        "y": 183
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "eyeball",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Eye Placeholder.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 42,
+                        "y": 45
+                      },
+                      {
+                        "x": 177,
+                        "y": 45
+                      },
+                      {
+                        "x": 177,
+                        "y": 193
+                      },
+                      {
+                        "x": 42,
+                        "y": 193
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "thistle",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "default_x",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "default_y",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "startx",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "starty",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "reset",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "ID",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics",
+          "PhysicsBehavior": "Physics2",
+          "MouseButton": "Left",
+          "MaxForce": 500,
+          "Frequency": 10,
+          "Damping": 1,
+          "MouseJointID": 1.00000000000091,
+          "EnableAutomaticDragging": false
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": false,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 2,
+          "friction": 0.3,
+          "restitution": 0.01,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Thistle_Placeholder.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 31,
+                        "y": 41
+                      },
+                      {
+                        "x": 380,
+                        "y": 41
+                      },
+                      {
+                        "x": 380,
+                        "y": 271
+                      },
+                      {
+                        "x": 31,
+                        "y": 271
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3685,6 +4282,15 @@
       {
         "folderName": "NPCs",
         "children": [
+          {
+            "objectName": "Vampire"
+          },
+          {
+            "objectName": "Goblin"
+          },
+          {
+            "objectName": "Dragon"
+          },
           {
             "objectName": "Prince"
           }
@@ -3728,10 +4334,34 @@
             "objectName": "trashButton"
           },
           {
+            "objectName": "teeth"
+          },
+          {
+            "objectName": "startdust"
+          },
+          {
+            "objectName": "sage"
+          },
+          {
+            "objectName": "mugwortPlant"
+          },
+          {
+            "objectName": "mugwortLeaf"
+          },
+          {
+            "objectName": "ink"
+          },
+          {
+            "objectName": "eyeball"
+          },
+          {
             "objectName": "trashBack"
           },
           {
             "objectName": "placeholder"
+          },
+          {
+            "objectName": "thistle"
           },
           {
             "objectName": "Orchid"
@@ -3774,9 +4404,6 @@
           },
           {
             "objectName": "bell"
-          },
-          {
-            "objectName": "latch"
           }
         ]
       },
@@ -3868,7 +4495,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Just comments",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3905,7 +4531,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Setup (That has to be in the beginning)",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3933,35 +4558,11 @@
             },
             {
               "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "bottleEmpty"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "dialogue"
-              ]
-            },
-            {
-              "type": {
                 "value": "DialogueTree::LoadDialogueFromJsonFile"
               },
               "parameters": [
                 "",
                 "Testing"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "textBox"
               ]
             },
             {
@@ -4083,7 +4684,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Reset position of ingredients",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4108,7 +4708,7 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "reset",
+                "trashButton",
                 "",
                 "",
                 ""
@@ -4230,10 +4830,52 @@
                 },
                 {
                   "type": {
-                    "value": "Hide"
+                    "value": "Delete"
                   },
                   "parameters": [
-                    "bottleEmpty"
+                    "potions",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "bottleEmpty",
+                    "68",
+                    "285",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "bottleEmpty",
+                    "Resizable",
+                    "163",
+                    "154"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "bottleEmpty",
+                    "=",
+                    "25"
                   ]
                 }
               ]
@@ -4476,7 +5118,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Animation events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4597,6 +5238,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4758,6 +5400,16 @@
               },
               "parameters": [
                 "mouseHasClicked",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "popUp",
                 "False",
                 ""
               ]
@@ -5826,20 +6478,11 @@
           "actions": [
             {
               "type": {
-                "value": "Show"
+                "value": "ShowLayer"
               },
               "parameters": [
-                "dialogue",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "textBox",
-                ""
+                "",
+                "\"Dialogue\""
               ]
             },
             {
@@ -5867,6 +6510,76 @@
                 "tutorialStart",
                 "=",
                 "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "popUp",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Prince",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Dialogue\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrollText\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"Prince behind door - tutorial\""
               ]
             }
           ]
@@ -5901,23 +6614,37 @@
                 "",
                 "\"Left\""
               ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "textBox",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Hide"
+                "value": "HideLayer"
               },
               "parameters": [
-                "dialogue"
+                "",
+                "\"Dialogue\""
               ]
             },
             {
               "type": {
-                "value": "Hide"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "textBox"
+                "popUp",
+                "False",
+                ""
               ]
             }
           ]
@@ -6010,6 +6737,17 @@
                     "value": "DialogueTree::HasClippedTextScrollingCompleted"
                   },
                   "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "textBox",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -6031,6 +6769,17 @@
                   "parameters": [
                     "",
                     "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "textBox",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ],
@@ -6545,7 +7294,7 @@
       "isLocked": false,
       "name": "Dialogue",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

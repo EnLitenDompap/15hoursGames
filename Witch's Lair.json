@@ -562,6 +562,118 @@
         "name": "Prince with Golden Hair.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Dragon_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dragon_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Goblin_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Goblin_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Vampire_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Vampire_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Thistle_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Thistle_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Teeth Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Teeth Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Stardust Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stardust Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Sage_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sage_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Mugwort_Plant_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mugwort_Plant_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Mugwort_Leaf_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mugwort_Leaf_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Ink Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ink Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Eye Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Eye Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Thistle_Placeholder2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Thistle_Placeholder2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Stand_Open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Stand_Open.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Stand_Front_Half_.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Stand_Front_Half_.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
