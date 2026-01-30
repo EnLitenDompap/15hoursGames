@@ -842,6 +842,14 @@
         "name": "Potion_Brewing-12.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Main Dialogue.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "Main Dialogue",
+        "userAdded": false
       }
     ]
   },

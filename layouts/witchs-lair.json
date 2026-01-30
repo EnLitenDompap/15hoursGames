@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7865263381045332,
+    "zoomFactor": 0.7360497255174764,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -105,11 +105,6 @@
       "value": 0
     },
     {
-      "name": "ingredientsInCauldron",
-      "type": "array",
-      "children": []
-    },
-    {
       "name": "ingredientsCounted",
       "type": "number",
       "value": 0
@@ -163,6 +158,72 @@
       "name": "potionBrewed",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "recipeMade",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "ingredientsCheck",
+      "type": "structure",
+      "children": [
+        {
+          "name": "addedEyeball",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "addedHoney",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "addedInk",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "addedMugwort",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "addedOrchid",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "addedSage",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "addedSnakeskin",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "addedStardust",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "addedTeeth",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "addedThistle",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "addedTurmeric",
+          "type": "boolean",
+          "value": false
+        }
+      ]
     }
   ],
   "instances": [
@@ -715,7 +776,13 @@
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "ID",
+          "type": "number",
+          "value": 9
+        }
+      ]
     },
     {
       "angle": 0,
@@ -732,7 +799,13 @@
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "ID",
+          "type": "number",
+          "value": 10
+        }
+      ]
     },
     {
       "angle": 0,
@@ -749,7 +822,13 @@
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "ID",
+          "type": "number",
+          "value": 6
+        }
+      ]
     },
     {
       "angle": 0,
@@ -761,9 +840,9 @@
       "name": "mugwortPlant",
       "persistentUuid": "e413ed73-9fd6-4735-82f4-9faf358815c4",
       "width": 270,
-      "x": -792,
-      "y": 74,
-      "zOrder": 2,
+      "x": -798,
+      "y": 56,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -780,10 +859,16 @@
       "width": 111,
       "x": -666,
       "y": 218,
-      "zOrder": 1,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "ID",
+          "type": "number",
+          "value": 11
+        }
+      ]
     },
     {
       "angle": 0,
@@ -800,7 +885,13 @@
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "ID",
+          "type": "number",
+          "value": 5
+        }
+      ]
     },
     {
       "angle": 0,
@@ -817,7 +908,13 @@
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "ID",
+          "type": "number",
+          "value": 1
+        }
+      ]
     },
     {
       "angle": 0,
@@ -834,7 +931,13 @@
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "ID",
+          "type": "number",
+          "value": 8
+        }
+      ]
     },
     {
       "angle": 0,
@@ -851,7 +954,13 @@
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "ID",
+          "type": "number",
+          "value": 2
+        }
+      ]
     },
     {
       "angle": 0,
@@ -868,7 +977,13 @@
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "ID",
+          "type": "number",
+          "value": 4
+        }
+      ]
     },
     {
       "angle": 0,
@@ -885,7 +1000,13 @@
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "ID",
+          "type": "number",
+          "value": 3
+        }
+      ]
     },
     {
       "angle": 0,
@@ -902,7 +1023,13 @@
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "ID",
+          "type": "number",
+          "value": 7
+        }
+      ]
     },
     {
       "angle": 0,
@@ -3165,20 +3292,32 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 385.5,
-                        "y": 242
+                        "x": 231,
+                        "y": 213
                       },
                       {
-                        "x": 941,
-                        "y": 355.5
+                        "x": 581.5,
+                        "y": 77
                       },
                       {
-                        "x": 948.5,
-                        "y": 1113.5
+                        "x": 885,
+                        "y": 206.5
                       },
                       {
-                        "x": 372.5,
-                        "y": 1138.5
+                        "x": 1244,
+                        "y": 606
+                      },
+                      {
+                        "x": 991,
+                        "y": 1483
+                      },
+                      {
+                        "x": 447.5,
+                        "y": 1449
+                      },
+                      {
+                        "x": 150,
+                        "y": 1264.5
                       }
                     ]
                   ]
@@ -3201,20 +3340,32 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 385.5,
-                        "y": 242
+                        "x": 231,
+                        "y": 213
                       },
                       {
-                        "x": 941,
-                        "y": 355.5
+                        "x": 581.5,
+                        "y": 77
                       },
                       {
-                        "x": 948.5,
-                        "y": 1113.5
+                        "x": 885,
+                        "y": 206.5
                       },
                       {
-                        "x": 372.5,
-                        "y": 1138.5
+                        "x": 1244,
+                        "y": 606
+                      },
+                      {
+                        "x": 991,
+                        "y": 1483
+                      },
+                      {
+                        "x": 447.5,
+                        "y": 1449
+                      },
+                      {
+                        "x": 150,
+                        "y": 1264.5
                       }
                     ]
                   ]
@@ -3264,7 +3415,42 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics",
+          "PhysicsBehavior": "Physics2",
+          "MouseButton": "Left",
+          "MaxForce": 500,
+          "Frequency": 10,
+          "Damping": 1,
+          "MouseJointID": 1.00000000000091,
+          "EnableAutomaticDragging": false
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 2,
+          "friction": 0.3,
+          "restitution": 0.01,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -5125,7 +5311,42 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics",
+          "PhysicsBehavior": "Physics2",
+          "MouseButton": "Left",
+          "MaxForce": 500,
+          "Frequency": 10,
+          "Damping": 1,
+          "MouseJointID": 1.00000000000091,
+          "EnableAutomaticDragging": false
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 2,
+          "friction": 0.3,
+          "restitution": 0.01,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -5222,7 +5443,42 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics",
+          "PhysicsBehavior": "Physics2",
+          "MouseButton": "Left",
+          "MaxForce": 500,
+          "Frequency": 10,
+          "Damping": 1,
+          "MouseJointID": 1.00000000000091,
+          "EnableAutomaticDragging": false
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 2,
+          "friction": 0.3,
+          "restitution": 0.01,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -5437,7 +5693,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "bubblingLiquid",
       "type": "Sprite",
@@ -5472,20 +5728,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 31,
-                        "y": 49
+                        "x": 102.5,
+                        "y": 121.5
                       },
                       {
-                        "x": 475,
-                        "y": 49
+                        "x": 390.5,
+                        "y": 115.5
                       },
                       {
-                        "x": 475,
-                        "y": 165
+                        "x": 403.5,
+                        "y": 136.5
                       },
                       {
-                        "x": 31,
-                        "y": 165
+                        "x": 90.5,
+                        "y": 143.5
                       }
                     ]
                   ]
@@ -5508,20 +5764,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 31,
-                        "y": 49
+                        "x": 102.5,
+                        "y": 121.5
                       },
                       {
-                        "x": 475,
-                        "y": 49
+                        "x": 390.5,
+                        "y": 115.5
                       },
                       {
-                        "x": 475,
-                        "y": 165
+                        "x": 403.5,
+                        "y": 136.5
                       },
                       {
-                        "x": 31,
-                        "y": 165
+                        "x": 90.5,
+                        "y": 143.5
                       }
                     ]
                   ]
@@ -5544,20 +5800,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 31,
-                        "y": 49
+                        "x": 102.5,
+                        "y": 121.5
                       },
                       {
-                        "x": 475,
-                        "y": 49
+                        "x": 390.5,
+                        "y": 115.5
                       },
                       {
-                        "x": 475,
-                        "y": 165
+                        "x": 403.5,
+                        "y": 136.5
                       },
                       {
-                        "x": 31,
-                        "y": 165
+                        "x": 90.5,
+                        "y": 143.5
                       }
                     ]
                   ]
@@ -6140,6 +6396,9 @@
           },
           {
             "objectName": "Orchid"
+          },
+          {
+            "objectName": "bottleEmpty"
           }
         ]
       },
@@ -6182,9 +6441,6 @@
       {
         "folderName": "Furniture (static)",
         "children": [
-          {
-            "objectName": "bottleEmpty"
-          },
           {
             "objectName": "doorBackground"
           },
@@ -6231,7 +6487,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Tests (These should be deleted)",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6306,7 +6561,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Setup (That has to be in the beginning)",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6338,7 +6592,7 @@
               },
               "parameters": [
                 "",
-                "Testing"
+                "Main Dialogue"
               ]
             },
             {
@@ -6474,7 +6728,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "When the \"reset bell \" is clicked, put everything back in its original position"
+          "comment": "When the \"reset button \" is clicked, put everything back in its original position after 0.5 seconds. The wait time is so that it looks like it is reseting to the player's eye, especially when replacing and empty bottle with another empty bottle. Also resets the cauldron variables, which need to be cleaned up a bit 😅"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -6520,24 +6774,21 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "mouseHasClicked",
-                "True",
-                ""
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "ingredients",
               "conditions": [],
               "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -6582,7 +6833,14 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -6606,11 +6864,11 @@
                 },
                 {
                   "type": {
-                    "value": "SetNumberVariable"
+                    "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "ingredientsInCauldron",
-                    "=",
+                    "potionBrewed",
+                    "False",
                     "0"
                   ]
                 },
@@ -6662,6 +6920,26 @@
                     "bottleEmpty",
                     "=",
                     "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "potions",
+                    "Physics2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "mouseHasClicked",
+                    "True",
+                    ""
                   ]
                 }
               ]
@@ -6904,6 +7182,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Animation events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7024,101 +7303,6 @@
           ]
         },
         {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "animationEvent",
-                "=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "animationEvent",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "latch",
-                "Animation",
-                "=",
-                "\"Open\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "bottleEmpty",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.6"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "bottleEmpty",
-                "=",
-                "70",
-                "=",
-                "285"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "latch",
-                "Animation",
-                "=",
-                "\"Closed\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.5"
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -7167,123 +7351,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-              },
-              "parameters": [
-                "potionBrewing",
-                "Animation"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "potionBrewed",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "potionBrewed",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "animationEvent",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "genericPotion",
-                    "65",
-                    "285",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResizableCapability::ResizableBehavior::SetSize"
-                  },
-                  "parameters": [
-                    "genericPotion",
-                    "Resizable",
-                    "163",
-                    "154"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "genericPotion",
-                    "=",
-                    "25"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "potionBrewing",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "potionBrewed",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "cauldronCounter",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "parameters": []
@@ -7317,6 +7384,16 @@
               },
               "parameters": [
                 "ingredients",
+                "Physics2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "potions",
                 "Physics2",
                 ""
               ]
@@ -7441,6 +7518,84 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "potions",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "potions",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "popUp",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "potions",
+                "Physics2",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "DraggablePhysics::DraggablePhysics::StartDragging"
+              },
+              "parameters": [
+                "potions",
+                "DraggablePhysics",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -7460,6 +7615,16 @@
               },
               "parameters": [
                 "ingredients",
+                "DraggablePhysics",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DraggablePhysics::DraggablePhysics::ReleaseDrag"
+              },
+              "parameters": [
+                "potions",
                 "DraggablePhysics",
                 ""
               ]
@@ -7500,104 +7665,161 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "For the life of me, I cannot get this code to accept object variables, so I had to make these global, though it is messy. If you find a way, feel free to fix."
+          "comment": "When ingredient collides with liquid, it gets added to the cauldron and the ingredient is yeeted off screen."
         },
         {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "ingredients",
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "PosX"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "ingredients",
-                ">=",
-                "50"
+                "honey",
+                "bubblingLiquid",
+                "bubblingLiquid",
+                "",
+                ""
               ]
             },
             {
               "type": {
-                "value": "PosX"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "ingredients",
-                "<=",
-                "220"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosY"
-              },
-              "parameters": [
-                "ingredients",
-                ">=",
-                "460"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "ingredientsCounted",
-                "<=",
-                "2"
+                "potionBrewed",
+                "False",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "PushNumber"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "ingredientsInCauldron[ingredientsCounted]",
-                "ingredients.ID"
+                "ingredientsCheck.addedHoney",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Orchid",
+                "bubblingLiquid",
+                "bubblingLiquid",
+                "",
+                ""
               ]
             },
             {
               "type": {
-                "value": "SetXY"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "ingredients",
-                "=",
-                "0",
-                "=",
-                "-1000"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "ingredientsCounted",
-                "+",
-                "1"
+                "potionBrewed",
+                "False",
+                ""
               ]
             }
           ],
-          "events": [
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
+              "type": {
+                "value": "SetBooleanVariable"
               },
-              "comment": "Controls the color of the brew"
+              "parameters": [
+                "ingredientsCheck.addedOrchid",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "snakeSkin",
+                "bubblingLiquid",
+                "bubblingLiquid",
+                "",
+                ""
+              ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "potionBrewed",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ingredientsCheck.addedSnakeskin",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "turmeric",
+                "bubblingLiquid",
+                "bubblingLiquid",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "potionBrewed",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ingredientsCheck.addedTurmeric",
+                "True",
+                ""
+              ]
             }
           ]
         },
@@ -7615,6 +7837,16 @@
                 "",
                 "no"
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "potionBrewed",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -7630,14 +7862,37 @@
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "SetY"
               },
               "parameters": [
                 "ingredients",
+                "=",
+                "-1000"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "ingredients",
+                "Physics2",
                 ""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Starts the automatic brewing."
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -7663,6 +7918,16 @@
                 "=",
                 "2"
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "potionBrewed",
+                "True",
+                ""
+              ]
             }
           ]
         },
@@ -7676,19 +7941,18 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Starts the automatic brewing. Variable set to 4 so none of this code does anything until the animation is done. The animation event itself will reset the variable to 0."
+          "comment": "When the liquid finishes pouring, make a potion appear. "
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
               },
               "parameters": [
-                "ingredientsCounted",
-                "=",
-                "3"
+                "potionBrewing",
+                "Animation"
               ]
             }
           ],
@@ -7698,9 +7962,28 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "ingredientsCounted",
+                "animationEvent",
                 "=",
-                "4"
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "potionBrewing",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "cauldronCounter",
+                "=",
+                "0"
               ]
             }
           ],
@@ -7715,20 +7998,214 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Here will be all the potion alternatives, if you make a potion after a recipie."
+              "comment": "Potion of Unlocking Recipe"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedHoney",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedOrchid",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedSnakeskin",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedTurmeric",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberVariable"
+                    "value": "Delete"
                   },
                   "parameters": [
-                    "animationEvent",
+                    "potions",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "potionOfUnlocking",
+                    "113",
+                    "286",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "potionOfUnlocking",
+                    "Resizable",
+                    "70",
+                    "145"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "potionOfUnlocking",
                     "=",
-                    "2"
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "potions",
+                    "Physics2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "recipeMade",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Generic potion is made if the incorrect ingredients are used."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "recipeMade",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "potions",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "genericPotion",
+                    "65",
+                    "285",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "genericPotion",
+                    "Resizable",
+                    "163",
+                    "154"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "genericPotion",
+                    "=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "potions",
+                    "Physics2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck",
+                    "False",
+                    ""
                   ]
                 }
               ]
@@ -8454,6 +8931,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "disabled": true,
       "folded": true,
       "name": "Dialogue",
       "source": "",
