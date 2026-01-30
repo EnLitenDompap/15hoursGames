@@ -674,6 +674,174 @@
         "name": "Potion_Stand_Front_Half_.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Turmeric.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Turmeric.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Snake_Skin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Snake_Skin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Generic_Potion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic_Potion.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Of_Unlocking.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Of_Unlocking.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Honey-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Honey-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Honey-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Honey-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Bubbling_Liquid-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bubbling_Liquid-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Bubbling_Liquid-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bubbling_Liquid-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Bubbling_Liquid-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bubbling_Liquid-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Brewing-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Brewing-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Brewing-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Brewing-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Brewing-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Brewing-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Brewing-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Brewing-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Brewing-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Brewing-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Brewing-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Brewing-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Brewing-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Brewing-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Brewing-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Brewing-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Brewing-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Brewing-9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Brewing-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Brewing-10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Brewing-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Brewing-11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Brewing-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Brewing-12.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
