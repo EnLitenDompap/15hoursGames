@@ -64,6 +64,12 @@
         },
         {
           "name": "honey"
+        },
+        {
+          "name": "voice"
+        },
+        {
+          "name": "nail"
         }
       ]
     },
@@ -89,6 +95,21 @@
         },
         {
           "name": "genericPotion"
+        },
+        {
+          "name": "potionOfIllumination"
+        },
+        {
+          "name": "strengthDraught"
+        },
+        {
+          "name": "potionOfDarkness"
+        },
+        {
+          "name": "fireResistancePotion"
+        },
+        {
+          "name": "catsEyeTincture"
         }
       ]
     }
@@ -189,6 +210,11 @@
           "value": false
         },
         {
+          "name": "addedNail",
+          "type": "boolean",
+          "value": false
+        },
+        {
           "name": "addedOrchid",
           "type": "boolean",
           "value": false
@@ -220,6 +246,11 @@
         },
         {
           "name": "addedTurmeric",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "addedVoice",
           "type": "boolean",
           "value": false
         }
@@ -273,7 +304,7 @@
       "width": 419,
       "x": -63,
       "y": 446,
-      "zOrder": 4,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -341,7 +372,7 @@
       "width": 228,
       "x": 15,
       "y": 194,
-      "zOrder": 4,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -426,7 +457,7 @@
       "width": 893,
       "x": -610,
       "y": -23,
-      "zOrder": 3,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -880,7 +911,7 @@
       "name": "sage",
       "persistentUuid": "368c0e7a-d7a8-472a-8747-77e5b4940524",
       "width": 127,
-      "x": -461,
+      "x": -484,
       "y": 173,
       "zOrder": 30,
       "numberProperties": [],
@@ -972,8 +1003,8 @@
       "name": "turmeric",
       "persistentUuid": "9dfd3790-1669-457b-9925-0ee0a4100355",
       "width": 224,
-      "x": -336,
-      "y": 161,
+      "x": -367,
+      "y": 165,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -1044,6 +1075,72 @@
       "x": 13,
       "y": 484,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cat",
+      "persistentUuid": "c019d872-fd4e-4e24-8291-493d4f1646c9",
+      "width": 0,
+      "x": 644,
+      "y": 380,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 170,
+      "keepRatio": true,
+      "layer": "",
+      "name": "OOH",
+      "persistentUuid": "f8dbb694-a043-4a2e-bedc-55a14c4629f6",
+      "width": 166,
+      "x": 274,
+      "y": 14,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 129,
+      "keepRatio": true,
+      "layer": "",
+      "name": "voice",
+      "persistentUuid": "ff2d6c68-bdf2-4774-87da-ebd4c2c05f63",
+      "width": 116,
+      "x": -151,
+      "y": 168,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 87,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "nail",
+      "persistentUuid": "44ab4a86-52b4-473d-af60-7687bd2e4ab8",
+      "width": 0,
+      "x": 245,
+      "y": 229,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5275,37 +5372,31 @@
       "variables": [
         {
           "name": "default_x",
-          "persistentUuid": "b925a632-df1c-4199-bd84-c5fbc6d072c0",
           "type": "number",
           "value": 0
         },
         {
           "name": "default_y",
-          "persistentUuid": "d2be643d-0666-4c2d-8f7c-0a415acee7b1",
           "type": "number",
           "value": 0
         },
         {
           "name": "startx",
-          "persistentUuid": "02bd4090-3942-4346-ad04-3b71eb12e287",
           "type": "number",
           "value": 0
         },
         {
           "name": "starty",
-          "persistentUuid": "5a9001a5-8b89-4b9d-a3a7-f9314098c82e",
           "type": "number",
           "value": 0
         },
         {
           "name": "reset",
-          "persistentUuid": "e74e3fd5-d9cc-445c-be5a-8bcd6e705fe4",
           "type": "boolean",
           "value": false
         },
         {
           "name": "ID",
-          "persistentUuid": "990d8856-0fad-49e3-bdc3-ee33357f555e",
           "type": "number",
           "value": 0
         }
@@ -6279,6 +6370,1448 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "cat",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cat-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 181
+                      },
+                      {
+                        "x": 16,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cat-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 181
+                      },
+                      {
+                        "x": 16,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cat-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 181
+                      },
+                      {
+                        "x": 16,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cat-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 181
+                      },
+                      {
+                        "x": 16,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cat-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 181
+                      },
+                      {
+                        "x": 16,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cat-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 181
+                      },
+                      {
+                        "x": 16,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cat-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 181
+                      },
+                      {
+                        "x": 16,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cat-8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 181
+                      },
+                      {
+                        "x": 16,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cat-9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 181
+                      },
+                      {
+                        "x": 16,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cat-10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 181
+                      },
+                      {
+                        "x": 16,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cat-11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 181
+                      },
+                      {
+                        "x": 16,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cat-12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 60
+                      },
+                      {
+                        "x": 220,
+                        "y": 181
+                      },
+                      {
+                        "x": 16,
+                        "y": 181
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "catsEyeTincture",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "default_x",
+          "persistentUuid": "69dbc0fd-807d-492d-8297-32ce881a2490",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "default_y",
+          "persistentUuid": "5a636812-27c0-49b2-96bc-d0c7613fc338",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "startx",
+          "persistentUuid": "420e3e4d-9ce7-41b9-b96b-e5d47df20476",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "starty",
+          "persistentUuid": "bb810426-4c10-42d6-bda9-6aa622a8dad2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "reset",
+          "persistentUuid": "1f630214-459f-403b-9f6c-6ca9ca1cc1d4",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "ID",
+          "persistentUuid": "1648560a-6251-4259-89b1-f74e4aecb78f",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics",
+          "PhysicsBehavior": "Physics2",
+          "MouseButton": "Left",
+          "MaxForce": 500,
+          "Frequency": 10,
+          "Damping": 1,
+          "MouseJointID": 1.00000000000091,
+          "EnableAutomaticDragging": false
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 2,
+          "friction": 0.3,
+          "restitution": 0.01,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cats_Eye_Tincture.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 24
+                      },
+                      {
+                        "x": 248,
+                        "y": 24
+                      },
+                      {
+                        "x": 248,
+                        "y": 204
+                      },
+                      {
+                        "x": 11,
+                        "y": 204
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fireResistancePotion",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "default_x",
+          "persistentUuid": "69dbc0fd-807d-492d-8297-32ce881a2490",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "default_y",
+          "persistentUuid": "5a636812-27c0-49b2-96bc-d0c7613fc338",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "startx",
+          "persistentUuid": "420e3e4d-9ce7-41b9-b96b-e5d47df20476",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "starty",
+          "persistentUuid": "bb810426-4c10-42d6-bda9-6aa622a8dad2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "reset",
+          "persistentUuid": "1f630214-459f-403b-9f6c-6ca9ca1cc1d4",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "ID",
+          "persistentUuid": "1648560a-6251-4259-89b1-f74e4aecb78f",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics",
+          "PhysicsBehavior": "Physics2",
+          "MouseButton": "Left",
+          "MaxForce": 500,
+          "Frequency": 10,
+          "Damping": 1,
+          "MouseJointID": 1.00000000000091,
+          "EnableAutomaticDragging": false
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 2,
+          "friction": 0.3,
+          "restitution": 0.01,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fire_Resistance_Potion.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 18
+                      },
+                      {
+                        "x": 174,
+                        "y": 18
+                      },
+                      {
+                        "x": 174,
+                        "y": 272
+                      },
+                      {
+                        "x": 13,
+                        "y": 272
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "potionOfDarkness",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "default_x",
+          "persistentUuid": "69dbc0fd-807d-492d-8297-32ce881a2490",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "default_y",
+          "persistentUuid": "5a636812-27c0-49b2-96bc-d0c7613fc338",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "startx",
+          "persistentUuid": "420e3e4d-9ce7-41b9-b96b-e5d47df20476",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "starty",
+          "persistentUuid": "bb810426-4c10-42d6-bda9-6aa622a8dad2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "reset",
+          "persistentUuid": "1f630214-459f-403b-9f6c-6ca9ca1cc1d4",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "ID",
+          "persistentUuid": "1648560a-6251-4259-89b1-f74e4aecb78f",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics",
+          "PhysicsBehavior": "Physics2",
+          "MouseButton": "Left",
+          "MaxForce": 500,
+          "Frequency": 10,
+          "Damping": 1,
+          "MouseJointID": 1.00000000000091,
+          "EnableAutomaticDragging": false
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 2,
+          "friction": 0.3,
+          "restitution": 0.01,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Potion_Of_Darkness.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 89,
+                        "y": 90
+                      },
+                      {
+                        "x": 330,
+                        "y": 90
+                      },
+                      {
+                        "x": 330,
+                        "y": 391
+                      },
+                      {
+                        "x": 89,
+                        "y": 391
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "potionOfIllumination",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "default_x",
+          "persistentUuid": "69dbc0fd-807d-492d-8297-32ce881a2490",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "default_y",
+          "persistentUuid": "5a636812-27c0-49b2-96bc-d0c7613fc338",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "startx",
+          "persistentUuid": "420e3e4d-9ce7-41b9-b96b-e5d47df20476",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "starty",
+          "persistentUuid": "bb810426-4c10-42d6-bda9-6aa622a8dad2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "reset",
+          "persistentUuid": "1f630214-459f-403b-9f6c-6ca9ca1cc1d4",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "ID",
+          "persistentUuid": "1648560a-6251-4259-89b1-f74e4aecb78f",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics",
+          "PhysicsBehavior": "Physics2",
+          "MouseButton": "Left",
+          "MaxForce": 500,
+          "Frequency": 10,
+          "Damping": 1,
+          "MouseJointID": 1.00000000000091,
+          "EnableAutomaticDragging": false
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 2,
+          "friction": 0.3,
+          "restitution": 0.01,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Potion_Of_Illumination.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 88,
+                        "y": 89
+                      },
+                      {
+                        "x": 331,
+                        "y": 89
+                      },
+                      {
+                        "x": 331,
+                        "y": 392
+                      },
+                      {
+                        "x": 88,
+                        "y": 392
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "strengthDraught",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "default_x",
+          "persistentUuid": "69dbc0fd-807d-492d-8297-32ce881a2490",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "default_y",
+          "persistentUuid": "5a636812-27c0-49b2-96bc-d0c7613fc338",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "startx",
+          "persistentUuid": "420e3e4d-9ce7-41b9-b96b-e5d47df20476",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "starty",
+          "persistentUuid": "bb810426-4c10-42d6-bda9-6aa622a8dad2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "reset",
+          "persistentUuid": "1f630214-459f-403b-9f6c-6ca9ca1cc1d4",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "ID",
+          "persistentUuid": "1648560a-6251-4259-89b1-f74e4aecb78f",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics",
+          "PhysicsBehavior": "Physics2",
+          "MouseButton": "Left",
+          "MaxForce": 500,
+          "Frequency": 10,
+          "Damping": 1,
+          "MouseJointID": 1.00000000000091,
+          "EnableAutomaticDragging": false
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 2,
+          "friction": 0.3,
+          "restitution": 0.01,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Strength_Draught V1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 21,
+                        "y": 17
+                      },
+                      {
+                        "x": 231,
+                        "y": 17
+                      },
+                      {
+                        "x": 231,
+                        "y": 240
+                      },
+                      {
+                        "x": 21,
+                        "y": 240
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "voice",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "default_x",
+          "persistentUuid": "4438ae45-a484-4b65-a6e3-08a0178a6541",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "default_y",
+          "persistentUuid": "cb547145-0977-4322-b4d6-c02fb11c84a5",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "startx",
+          "persistentUuid": "6b904c90-dcd0-4c40-87c8-c9c6df90a899",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "starty",
+          "persistentUuid": "d1160c60-0c5f-4a37-8c3b-08fcf9734363",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "reset",
+          "persistentUuid": "dc6da0ce-e84e-44e3-872a-2b4be7add6ba",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "hasMixedValues": true,
+          "name": "ID",
+          "persistentUuid": "bf24c4ee-2704-45ab-8cc2-28ed7968f5c7",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics",
+          "PhysicsBehavior": "Physics2",
+          "MouseButton": "Left",
+          "MaxForce": 500,
+          "Frequency": 10,
+          "Damping": 1,
+          "MouseJointID": 1.00000000000091,
+          "EnableAutomaticDragging": false
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 2,
+          "friction": 0.3,
+          "restitution": 0.01,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Voice_Placeholder.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 25
+                      },
+                      {
+                        "x": 250,
+                        "y": 25
+                      },
+                      {
+                        "x": 250,
+                        "y": 259
+                      },
+                      {
+                        "x": 5,
+                        "y": 259
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "nail",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "default_x",
+          "persistentUuid": "4438ae45-a484-4b65-a6e3-08a0178a6541",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "default_y",
+          "persistentUuid": "cb547145-0977-4322-b4d6-c02fb11c84a5",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "startx",
+          "persistentUuid": "6b904c90-dcd0-4c40-87c8-c9c6df90a899",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "starty",
+          "persistentUuid": "d1160c60-0c5f-4a37-8c3b-08fcf9734363",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "reset",
+          "persistentUuid": "dc6da0ce-e84e-44e3-872a-2b4be7add6ba",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "hasMixedValues": true,
+          "name": "ID",
+          "persistentUuid": "bf24c4ee-2704-45ab-8cc2-28ed7968f5c7",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics",
+          "PhysicsBehavior": "Physics2",
+          "MouseButton": "Left",
+          "MaxForce": 500,
+          "Frequency": 10,
+          "Damping": 1,
+          "MouseJointID": 1.00000000000091,
+          "EnableAutomaticDragging": false
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 2,
+          "friction": 0.3,
+          "restitution": 0.01,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Nail.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 34
+                      },
+                      {
+                        "x": 7,
+                        "y": 34
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "OOH",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OOH_Symbol_Placeholder (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 79,
+                        "y": 75
+                      },
+                      {
+                        "x": 776,
+                        "y": 75
+                      },
+                      {
+                        "x": 776,
+                        "y": 776
+                      },
+                      {
+                        "x": 79,
+                        "y": 776
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -6292,6 +7825,21 @@
           },
           {
             "objectName": "potionOfUnlocking"
+          },
+          {
+            "objectName": "catsEyeTincture"
+          },
+          {
+            "objectName": "fireResistancePotion"
+          },
+          {
+            "objectName": "potionOfDarkness"
+          },
+          {
+            "objectName": "potionOfIllumination"
+          },
+          {
+            "objectName": "strengthDraught"
           },
           {
             "objectName": "bubblingLiquid"
@@ -6315,6 +7863,9 @@
           },
           {
             "objectName": "Prince"
+          },
+          {
+            "objectName": "cat"
           }
         ]
       },
@@ -6363,6 +7914,12 @@
           },
           {
             "objectName": "placeholder"
+          },
+          {
+            "objectName": "voice"
+          },
+          {
+            "objectName": "nail"
           },
           {
             "objectName": "thistle"
@@ -6443,6 +8000,9 @@
         "children": [
           {
             "objectName": "doorBackground"
+          },
+          {
+            "objectName": "OOH"
           },
           {
             "objectName": "cabinetShelf"
@@ -6717,7 +8277,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Reset position of ingredients",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6943,6 +8502,16 @@
                   "parameters": [
                     "mouseHasClicked",
                     "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "recipeMade",
+                    "False",
                     ""
                   ]
                 }
@@ -7364,7 +8933,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Physics",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7513,6 +9081,43 @@
                   },
                   "parameters": [
                     "mugwortLeaf",
+                    "=",
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "nail",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "nail",
                     "=",
                     "10"
                   ]
@@ -7835,6 +9440,357 @@
                 "value": "CollisionNP"
               },
               "parameters": [
+                "ink",
+                "bubblingLiquid",
+                "bubblingLiquid",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "potionBrewed",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ingredientsCheck.addedInk",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "stardust",
+                "bubblingLiquid",
+                "bubblingLiquid",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "potionBrewed",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ingredientsCheck.addedStardust",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "teeth",
+                "bubblingLiquid",
+                "bubblingLiquid",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "potionBrewed",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ingredientsCheck.addedTeeth",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "thistle",
+                "bubblingLiquid",
+                "bubblingLiquid",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "potionBrewed",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ingredientsCheck.addedThistle",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "sage",
+                "bubblingLiquid",
+                "bubblingLiquid",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "potionBrewed",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ingredientsCheck.addedSage",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "eyeball",
+                "bubblingLiquid",
+                "bubblingLiquid",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "potionBrewed",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ingredientsCheck.addedEyeball",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "mugwortLeaf",
+                "bubblingLiquid",
+                "bubblingLiquid",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "potionBrewed",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ingredientsCheck.addedMugwort",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "voice",
+                "bubblingLiquid",
+                "bubblingLiquid",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "potionBrewed",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ingredientsCheck.addedVoice",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "nail",
+                "bubblingLiquid",
+                "bubblingLiquid",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "potionBrewed",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ingredientsCheck.addedNail",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
                 "ingredients",
                 "bubblingLiquid",
                 "",
@@ -8087,6 +10043,530 @@
                   },
                   "parameters": [
                     "potionOfUnlocking",
+                    "=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "potions",
+                    "Physics2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "recipeMade",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Potion of Illumination"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedTeeth",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedThistle",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedInk",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedStardust",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "potions",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "potionOfIllumination",
+                    "-1",
+                    "196",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "potionOfIllumination",
+                    "Resizable",
+                    "283",
+                    "308"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "potionOfIllumination",
+                    "=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "potions",
+                    "Physics2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "recipeMade",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Potion of Darkness"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedEyeball",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedThistle",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedInk",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedStardust",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "potions",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "potionOfDarkness",
+                    "-1",
+                    "196",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "potionOfDarkness",
+                    "Resizable",
+                    "283",
+                    "308"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "potionOfDarkness",
+                    "=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "potions",
+                    "Physics2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "recipeMade",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Fire Resistance Potion"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedSage",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedSnakeskin",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedTeeth",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedTurmeric",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "potions",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "fireResistancePotion",
+                    "99",
+                    "281",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "fireResistancePotion",
+                    "Resizable",
+                    "105",
+                    "159"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "fireResistancePotion",
+                    "=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "potions",
+                    "Physics2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "recipeMade",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Strength Draught"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedMugwort",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedHoney",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedVoice",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedNail",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "potions",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "strengthDraught",
+                    "52",
+                    "264",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "strengthDraught",
+                    "Resizable",
+                    "169",
+                    "176"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "strengthDraught",
                     "=",
                     "25"
                   ]
@@ -8935,6 +11415,8 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "disabled": true,
+      "folded": true,
       "name": "Dialogue",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9461,6 +11943,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Using Potions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9550,6 +12033,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "NPC Behaviour",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

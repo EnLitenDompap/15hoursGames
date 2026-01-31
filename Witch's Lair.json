@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 253,
+    "build": 254,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -849,6 +849,166 @@
         "kind": "json",
         "metadata": "{\"extension\":\".json\"}",
         "name": "Main Dialogue",
+        "userAdded": false
+      },
+      {
+        "file": "Cat-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cat-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cat-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cat-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cat-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cat-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cat-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cat-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cat-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat-9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cat-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat-10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cat-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat-11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cat-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat-12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cats_Eye_Tincture.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cats_Eye_Tincture.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Fire_Resistance_Potion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire_Resistance_Potion.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Of_Darkness.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Of_Darkness.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Potion_Of_Illumination.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Potion_Of_Illumination.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Strength_Draught V1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Strength_Draught V1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Voice_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Voice_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Nail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nail.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "OOH_Symbol_Placeholder (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "OOH_Symbol_Placeholder (1).png",
+        "smoothed": true,
         "userAdded": false
       }
     ]
