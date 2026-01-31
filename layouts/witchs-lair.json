@@ -30,9 +30,6 @@
       "name": "ingredients",
       "objects": [
         {
-          "name": "placeholder"
-        },
-        {
           "name": "Orchid"
         },
         {
@@ -40,9 +37,6 @@
         },
         {
           "name": "eyeball"
-        },
-        {
-          "name": "mugwortLeaf"
         },
         {
           "name": "ink"
@@ -67,9 +61,6 @@
         },
         {
           "name": "voice"
-        },
-        {
-          "name": "nail"
         }
       ]
     },
@@ -255,6 +246,11 @@
           "value": false
         }
       ]
+    },
+    {
+      "name": "descriptionOn",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
@@ -812,6 +808,11 @@
           "name": "ID",
           "type": "number",
           "value": 9
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "thistle"
         }
       ]
     },
@@ -835,6 +836,11 @@
           "name": "ID",
           "type": "number",
           "value": 10
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "eyeball"
         }
       ]
     },
@@ -858,6 +864,11 @@
           "name": "ID",
           "type": "number",
           "value": 6
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "ink"
         }
       ]
     },
@@ -921,6 +932,11 @@
           "name": "ID",
           "type": "number",
           "value": 5
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "sage"
         }
       ]
     },
@@ -944,6 +960,11 @@
           "name": "ID",
           "type": "number",
           "value": 1
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "orchid"
         }
       ]
     },
@@ -967,6 +988,11 @@
           "name": "ID",
           "type": "number",
           "value": 8
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "stardust"
         }
       ]
     },
@@ -990,6 +1016,11 @@
           "name": "ID",
           "type": "number",
           "value": 2
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "teeth"
         }
       ]
     },
@@ -1013,6 +1044,11 @@
           "name": "ID",
           "type": "number",
           "value": 4
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "turmeric"
         }
       ]
     },
@@ -1036,6 +1072,11 @@
           "name": "ID",
           "type": "number",
           "value": 3
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "snake skin"
         }
       ]
     },
@@ -1059,6 +1100,11 @@
           "name": "ID",
           "type": "number",
           "value": 7
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "honey"
         }
       ]
     },
@@ -1127,7 +1173,13 @@
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "bottled voice"
+        }
+      ]
     },
     {
       "angle": 87,
@@ -3322,6 +3374,11 @@
           "name": "ID",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "orchid"
         }
       ],
       "effects": [],
@@ -3872,7 +3929,7 @@
       "leftMargin": 40,
       "name": "textBox",
       "rightMargin": 40,
-      "texture": "Placeholder text box2.png",
+      "texture": "Art assets\\UI elements\\Placeholder text box.png",
       "tiled": false,
       "topMargin": 40,
       "type": "PanelSpriteObject::PanelSprite",
@@ -3901,7 +3958,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Prince.png",
+                  "image": "Art assets\\Character Portraits\\Prince.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3949,7 +4006,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Prince with Golden Hair.png",
+                  "image": "Art assets\\Character Portraits\\Prince with Golden Hair.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4009,7 +4066,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Dragon_Placeholder.png",
+                  "image": "Art assets\\Character Portraits\\Dragon_Placeholder.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4069,7 +4126,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Goblin_Placeholder.png",
+                  "image": "Art assets\\Character Portraits\\Goblin_Placeholder.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4129,7 +4186,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Vampire_Placeholder.png",
+                  "image": "Art assets\\Character Portraits\\Vampire_Placeholder.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4189,7 +4246,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mugwort_Plant_Placeholder.png",
+                  "image": "Art assets\\Ingredients\\Mugwort_Plant_Placeholder.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4265,6 +4322,11 @@
           "name": "ID",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "thistle"
         }
       ],
       "effects": [],
@@ -4315,7 +4377,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Thistle_Placeholder.png",
+                  "image": "Art assets\\Ingredients\\Thistle_Placeholder2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4391,6 +4453,11 @@
           "name": "ID",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "eyeball"
         }
       ],
       "effects": [],
@@ -4441,7 +4508,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Eye Placeholder.png",
+                  "image": "Art assets\\Ingredients\\Eye Placeholder.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4517,6 +4584,11 @@
           "name": "ID",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "ink"
         }
       ],
       "effects": [],
@@ -4567,7 +4639,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Ink Placeholder.png",
+                  "image": "Art assets\\Ingredients\\Ink Placeholder.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4693,7 +4765,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Mugwort_Leaf_Placeholder.png",
+                  "image": "Art assets\\Ingredients\\Mugwort_Leaf_Placeholder.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4769,6 +4841,11 @@
           "name": "ID",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "sage"
         }
       ],
       "effects": [],
@@ -4819,7 +4896,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Sage_Placeholder.png",
+                  "image": "Art assets\\Ingredients\\Stardust Placeholder.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4835,20 +4912,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 36
+                        "x": 41,
+                        "y": 9
                       },
                       {
-                        "x": 315,
-                        "y": 36
+                        "x": 162,
+                        "y": 9
                       },
                       {
-                        "x": 315,
-                        "y": 274
+                        "x": 162,
+                        "y": 211
                       },
                       {
-                        "x": 15,
-                        "y": 274
+                        "x": 41,
+                        "y": 211
                       }
                     ]
                   ]
@@ -4895,6 +4972,11 @@
           "name": "ID",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "stardust"
         }
       ],
       "effects": [],
@@ -4945,7 +5027,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Stardust Placeholder.png",
+                  "image": "Art assets\\Ingredients\\Stardust Placeholder.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5021,6 +5103,11 @@
           "name": "ID",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "teeth"
         }
       ],
       "effects": [],
@@ -5071,7 +5158,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Teeth Placeholder.png",
+                  "image": "Art assets\\Ingredients\\Teeth Placeholder.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5147,6 +5234,11 @@
           "name": "ID",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "turmeric"
         }
       ],
       "effects": [],
@@ -5197,7 +5289,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Turmeric.png",
+                  "image": "Art assets\\Ingredients\\Turmeric.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5273,6 +5365,11 @@
           "name": "ID",
           "type": "number",
           "value": 1
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "snake skin"
         }
       ],
       "effects": [],
@@ -5323,7 +5420,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Snake_Skin.png",
+                  "image": "Art assets\\Ingredients\\Snake_Skin.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5449,7 +5546,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Generic_Potion.png",
+                  "image": "Art assets\\Potions\\Generic_Potion.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5498,37 +5595,31 @@
       "variables": [
         {
           "name": "default_x",
-          "persistentUuid": "b925a632-df1c-4199-bd84-c5fbc6d072c0",
           "type": "number",
           "value": 0
         },
         {
           "name": "default_y",
-          "persistentUuid": "d2be643d-0666-4c2d-8f7c-0a415acee7b1",
           "type": "number",
           "value": 0
         },
         {
           "name": "startx",
-          "persistentUuid": "02bd4090-3942-4346-ad04-3b71eb12e287",
           "type": "number",
           "value": 0
         },
         {
           "name": "starty",
-          "persistentUuid": "5a9001a5-8b89-4b9d-a3a7-f9314098c82e",
           "type": "number",
           "value": 0
         },
         {
           "name": "reset",
-          "persistentUuid": "e74e3fd5-d9cc-445c-be5a-8bcd6e705fe4",
           "type": "boolean",
           "value": false
         },
         {
           "name": "ID",
-          "persistentUuid": "990d8856-0fad-49e3-bdc3-ee33357f555e",
           "type": "number",
           "value": 0
         }
@@ -5581,7 +5672,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Of_Unlocking.png",
+                  "image": "Art assets\\Potions\\Potion_Of_Unlocking.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5657,6 +5748,11 @@
           "name": "ID",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "honey"
         }
       ],
       "effects": [],
@@ -5707,7 +5803,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Honey-1.png",
+                  "image": "Art assets\\Ingredients\\Honey-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5743,7 +5839,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Honey-2.png",
+                  "image": "Art assets\\Ingredients\\Honey-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5803,7 +5899,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Bubbling_Liquid-1.png",
+                  "image": "Art assets\\Potions\\Bubbling Liquid\\Bubbling_Liquid-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5839,7 +5935,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Bubbling_Liquid-2.png",
+                  "image": "Art assets\\Potions\\Bubbling Liquid\\Bubbling_Liquid-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5875,7 +5971,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Bubbling_Liquid-3.png",
+                  "image": "Art assets\\Potions\\Bubbling Liquid\\Bubbling_Liquid-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5935,7 +6031,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Brewing-1.png",
+                  "image": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5971,7 +6067,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Brewing-2.png",
+                  "image": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6007,7 +6103,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Brewing-3.png",
+                  "image": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6043,7 +6139,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Brewing-4.png",
+                  "image": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6079,7 +6175,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Brewing-5.png",
+                  "image": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6115,7 +6211,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Brewing-6.png",
+                  "image": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6151,7 +6247,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Brewing-7.png",
+                  "image": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6187,7 +6283,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Brewing-8.png",
+                  "image": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6223,7 +6319,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Brewing-9.png",
+                  "image": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6259,7 +6355,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Brewing-10.png",
+                  "image": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6295,7 +6391,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Brewing-11.png",
+                  "image": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6331,7 +6427,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Brewing-12.png",
+                  "image": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6391,7 +6487,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cat-1.png",
+                  "image": "Art assets\\Character Portraits\\Cat\\Cat-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6427,7 +6523,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cat-2.png",
+                  "image": "Art assets\\Character Portraits\\Cat\\Cat-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6463,7 +6559,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cat-3.png",
+                  "image": "Art assets\\Character Portraits\\Cat\\Cat-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6499,7 +6595,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cat-4.png",
+                  "image": "Art assets\\Character Portraits\\Cat\\Cat-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6535,7 +6631,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cat-5.png",
+                  "image": "Art assets\\Character Portraits\\Cat\\Cat-5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6571,7 +6667,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cat-6.png",
+                  "image": "Art assets\\Character Portraits\\Cat\\Cat-6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6607,7 +6703,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cat-7.png",
+                  "image": "Art assets\\Character Portraits\\Cat\\Cat-7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6643,7 +6739,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cat-8.png",
+                  "image": "Art assets\\Character Portraits\\Cat\\Cat-8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6679,7 +6775,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cat-9.png",
+                  "image": "Art assets\\Character Portraits\\Cat\\Cat-9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6715,7 +6811,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cat-10.png",
+                  "image": "Art assets\\Character Portraits\\Cat\\Cat-10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6751,7 +6847,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cat-11.png",
+                  "image": "Art assets\\Character Portraits\\Cat\\Cat-11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6787,7 +6883,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cat-12.png",
+                  "image": "Art assets\\Character Portraits\\Cat\\Cat-12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6836,37 +6932,31 @@
       "variables": [
         {
           "name": "default_x",
-          "persistentUuid": "69dbc0fd-807d-492d-8297-32ce881a2490",
           "type": "number",
           "value": 0
         },
         {
           "name": "default_y",
-          "persistentUuid": "5a636812-27c0-49b2-96bc-d0c7613fc338",
           "type": "number",
           "value": 0
         },
         {
           "name": "startx",
-          "persistentUuid": "420e3e4d-9ce7-41b9-b96b-e5d47df20476",
           "type": "number",
           "value": 0
         },
         {
           "name": "starty",
-          "persistentUuid": "bb810426-4c10-42d6-bda9-6aa622a8dad2",
           "type": "number",
           "value": 0
         },
         {
           "name": "reset",
-          "persistentUuid": "1f630214-459f-403b-9f6c-6ca9ca1cc1d4",
           "type": "boolean",
           "value": false
         },
         {
           "name": "ID",
-          "persistentUuid": "1648560a-6251-4259-89b1-f74e4aecb78f",
           "type": "number",
           "value": 0
         }
@@ -6919,7 +7009,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cats_Eye_Tincture.png",
+                  "image": "Art assets\\Potions\\Cats_Eye_Tincture.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6968,37 +7058,31 @@
       "variables": [
         {
           "name": "default_x",
-          "persistentUuid": "69dbc0fd-807d-492d-8297-32ce881a2490",
           "type": "number",
           "value": 0
         },
         {
           "name": "default_y",
-          "persistentUuid": "5a636812-27c0-49b2-96bc-d0c7613fc338",
           "type": "number",
           "value": 0
         },
         {
           "name": "startx",
-          "persistentUuid": "420e3e4d-9ce7-41b9-b96b-e5d47df20476",
           "type": "number",
           "value": 0
         },
         {
           "name": "starty",
-          "persistentUuid": "bb810426-4c10-42d6-bda9-6aa622a8dad2",
           "type": "number",
           "value": 0
         },
         {
           "name": "reset",
-          "persistentUuid": "1f630214-459f-403b-9f6c-6ca9ca1cc1d4",
           "type": "boolean",
           "value": false
         },
         {
           "name": "ID",
-          "persistentUuid": "1648560a-6251-4259-89b1-f74e4aecb78f",
           "type": "number",
           "value": 0
         }
@@ -7051,7 +7135,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Fire_Resistance_Potion.png",
+                  "image": "Art assets\\Potions\\Fire_Resistance_Potion_FR.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7100,37 +7184,31 @@
       "variables": [
         {
           "name": "default_x",
-          "persistentUuid": "69dbc0fd-807d-492d-8297-32ce881a2490",
           "type": "number",
           "value": 0
         },
         {
           "name": "default_y",
-          "persistentUuid": "5a636812-27c0-49b2-96bc-d0c7613fc338",
           "type": "number",
           "value": 0
         },
         {
           "name": "startx",
-          "persistentUuid": "420e3e4d-9ce7-41b9-b96b-e5d47df20476",
           "type": "number",
           "value": 0
         },
         {
           "name": "starty",
-          "persistentUuid": "bb810426-4c10-42d6-bda9-6aa622a8dad2",
           "type": "number",
           "value": 0
         },
         {
           "name": "reset",
-          "persistentUuid": "1f630214-459f-403b-9f6c-6ca9ca1cc1d4",
           "type": "boolean",
           "value": false
         },
         {
           "name": "ID",
-          "persistentUuid": "1648560a-6251-4259-89b1-f74e4aecb78f",
           "type": "number",
           "value": 0
         }
@@ -7183,7 +7261,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Of_Darkness.png",
+                  "image": "Art assets\\Potions\\Potion_Of_Darkness.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7232,37 +7310,31 @@
       "variables": [
         {
           "name": "default_x",
-          "persistentUuid": "69dbc0fd-807d-492d-8297-32ce881a2490",
           "type": "number",
           "value": 0
         },
         {
           "name": "default_y",
-          "persistentUuid": "5a636812-27c0-49b2-96bc-d0c7613fc338",
           "type": "number",
           "value": 0
         },
         {
           "name": "startx",
-          "persistentUuid": "420e3e4d-9ce7-41b9-b96b-e5d47df20476",
           "type": "number",
           "value": 0
         },
         {
           "name": "starty",
-          "persistentUuid": "bb810426-4c10-42d6-bda9-6aa622a8dad2",
           "type": "number",
           "value": 0
         },
         {
           "name": "reset",
-          "persistentUuid": "1f630214-459f-403b-9f6c-6ca9ca1cc1d4",
           "type": "boolean",
           "value": false
         },
         {
           "name": "ID",
-          "persistentUuid": "1648560a-6251-4259-89b1-f74e4aecb78f",
           "type": "number",
           "value": 0
         }
@@ -7315,7 +7387,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Potion_Of_Illumination.png",
+                  "image": "Art assets\\Potions\\Potion_Of_Illumination.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7364,37 +7436,31 @@
       "variables": [
         {
           "name": "default_x",
-          "persistentUuid": "69dbc0fd-807d-492d-8297-32ce881a2490",
           "type": "number",
           "value": 0
         },
         {
           "name": "default_y",
-          "persistentUuid": "5a636812-27c0-49b2-96bc-d0c7613fc338",
           "type": "number",
           "value": 0
         },
         {
           "name": "startx",
-          "persistentUuid": "420e3e4d-9ce7-41b9-b96b-e5d47df20476",
           "type": "number",
           "value": 0
         },
         {
           "name": "starty",
-          "persistentUuid": "bb810426-4c10-42d6-bda9-6aa622a8dad2",
           "type": "number",
           "value": 0
         },
         {
           "name": "reset",
-          "persistentUuid": "1f630214-459f-403b-9f6c-6ca9ca1cc1d4",
           "type": "boolean",
           "value": false
         },
         {
           "name": "ID",
-          "persistentUuid": "1648560a-6251-4259-89b1-f74e4aecb78f",
           "type": "number",
           "value": 0
         }
@@ -7447,7 +7513,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Strength_Draught V1.png",
+                  "image": "Art assets\\Potions\\Strength_Draught V1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7496,40 +7562,39 @@
       "variables": [
         {
           "name": "default_x",
-          "persistentUuid": "4438ae45-a484-4b65-a6e3-08a0178a6541",
           "type": "number",
           "value": 0
         },
         {
           "name": "default_y",
-          "persistentUuid": "cb547145-0977-4322-b4d6-c02fb11c84a5",
           "type": "number",
           "value": 0
         },
         {
           "name": "startx",
-          "persistentUuid": "6b904c90-dcd0-4c40-87c8-c9c6df90a899",
           "type": "number",
           "value": 0
         },
         {
           "name": "starty",
-          "persistentUuid": "d1160c60-0c5f-4a37-8c3b-08fcf9734363",
           "type": "number",
           "value": 0
         },
         {
           "name": "reset",
-          "persistentUuid": "dc6da0ce-e84e-44e3-872a-2b4be7add6ba",
           "type": "boolean",
           "value": false
         },
         {
           "hasMixedValues": true,
           "name": "ID",
-          "persistentUuid": "bf24c4ee-2704-45ab-8cc2-28ed7968f5c7",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "value": "voice"
         }
       ],
       "effects": [],
@@ -7580,7 +7645,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Voice_Placeholder.png",
+                  "image": "Art assets\\Ingredients\\Voice_Placeholder.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7629,38 +7694,32 @@
       "variables": [
         {
           "name": "default_x",
-          "persistentUuid": "4438ae45-a484-4b65-a6e3-08a0178a6541",
           "type": "number",
           "value": 0
         },
         {
           "name": "default_y",
-          "persistentUuid": "cb547145-0977-4322-b4d6-c02fb11c84a5",
           "type": "number",
           "value": 0
         },
         {
           "name": "startx",
-          "persistentUuid": "6b904c90-dcd0-4c40-87c8-c9c6df90a899",
           "type": "number",
           "value": 0
         },
         {
           "name": "starty",
-          "persistentUuid": "d1160c60-0c5f-4a37-8c3b-08fcf9734363",
           "type": "number",
           "value": 0
         },
         {
           "name": "reset",
-          "persistentUuid": "dc6da0ce-e84e-44e3-872a-2b4be7add6ba",
           "type": "boolean",
           "value": false
         },
         {
           "hasMixedValues": true,
           "name": "ID",
-          "persistentUuid": "bf24c4ee-2704-45ab-8cc2-28ed7968f5c7",
           "type": "number",
           "value": 0
         }
@@ -7713,7 +7772,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Nail.png",
+                  "image": "Art assets\\Ingredients\\Nail.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7773,7 +7832,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "OOH_Symbol_Placeholder (1).png",
+                  "image": "Art assets\\OOH_Symbol_Placeholder (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7812,6 +7871,49 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "description",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Orchid",
+      "font": "IMFellEnglish-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "42;28;21",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 20,
+        "shadowColor": "42;28;21",
+        "shadowDistance": 4,
+        "shadowOpacity": 255,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Orchid",
+        "font": "IMFellEnglish-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -8038,6 +8140,9 @@
             "objectName": "floor"
           }
         ]
+      },
+      {
+        "objectName": "description"
       }
     ]
   },
@@ -8257,6 +8362,104 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "nail",
+                        "startx",
+                        "=",
+                        "ingredients.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "nail",
+                        "starty",
+                        "=",
+                        "ingredients.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "nail",
+                        "ID",
+                        "=",
+                        "indexCount"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "indexCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "mugwortLeaf",
+                        "startx",
+                        "=",
+                        "ingredients.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "mugwortLeaf",
+                        "starty",
+                        "=",
+                        "ingredients.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "mugwortLeaf",
+                        "ID",
+                        "=",
+                        "indexCount"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "indexCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
                 }
               ],
               "variables": [
@@ -8277,6 +8480,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Reset position of ingredients",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8513,6 +8717,15 @@
                     "recipeMade",
                     "False",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "bubblingLiquid",
+                    "\"152;255;251\""
                   ]
                 }
               ]
@@ -8922,6 +9135,43 @@
                 "=",
                 "6"
               ]
+            },
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "potionBrewing",
+                "\"152;255;251\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedTurmeric",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "potionBrewing",
+                    "\"255;242;85\""
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -8933,6 +9183,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Physics",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8966,6 +9217,26 @@
               },
               "parameters": [
                 "potions",
+                "Physics2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "mugwortLeaf",
+                "Physics2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "nail",
                 "Physics2",
                 ""
               ]
@@ -9048,80 +9319,138 @@
                 ""
               ]
             }
-          ],
-          "events": [
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "IsCursorOnObject"
-                  },
-                  "parameters": [
-                    "mugwortLeaf",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "mugwortLeaf",
-                    "=",
-                    "10"
-                  ]
-                }
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "nail",
+                "",
+                "",
+                ""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "IsCursorOnObject"
-                  },
-                  "parameters": [
-                    "nail",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "nail",
-                    "=",
-                    "10"
-                  ]
-                }
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "nail",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "nail",
+                "Physics2",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "DraggablePhysics::DraggablePhysics::StartDragging"
+              },
+              "parameters": [
+                "nail",
+                "DraggablePhysics",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "mugwortLeaf",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "mugwortLeaf",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "mugwortLeaf",
+                "Physics2",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "DraggablePhysics::DraggablePhysics::StartDragging"
+              },
+              "parameters": [
+                "mugwortLeaf",
+                "DraggablePhysics",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "True",
+                ""
               ]
             }
           ]
@@ -9237,6 +9566,26 @@
                 "DraggablePhysics",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "DraggablePhysics::DraggablePhysics::ReleaseDrag"
+              },
+              "parameters": [
+                "nail",
+                "DraggablePhysics",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DraggablePhysics::DraggablePhysics::ReleaseDrag"
+              },
+              "parameters": [
+                "mugwortLeaf",
+                "DraggablePhysics",
+                ""
+              ]
             }
           ]
         }
@@ -9248,6 +9597,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Cauldron",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9262,7 +9612,31 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Takes basis in that a full cauldron is 4 ingredients. If some ingredients are stubborn on this, it is due to their \"point\" position, which can be changed in \"animations\"."
+          "comment": "Sets the empty cauldron colour"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "bubblingLiquid",
+                "\"152;255;251\""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -9274,7 +9648,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "When ingredient collides with liquid, it gets added to the cauldron and the ingredient is yeeted off screen."
+          "comment": "When ingredient collides with liquid, it gets added to the cauldron and the ingredient is yeeted off screen. Water changes colour if turmeric is used."
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -9428,6 +9802,15 @@
                 "ingredientsCheck.addedTurmeric",
                 "True",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "bubblingLiquid",
+                "\"255;242;85\""
               ]
             }
           ]
@@ -9702,6 +10085,36 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "cauldronCounter",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "mugwortLeaf",
+                "=",
+                "-1000"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "mugwortLeaf",
+                "Physics2",
+                ""
+              ]
             }
           ]
         },
@@ -9778,6 +10191,36 @@
               "parameters": [
                 "ingredientsCheck.addedNail",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "cauldronCounter",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "nail",
+                "=",
+                "-1000"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "nail",
+                "Physics2",
                 ""
               ]
             }
@@ -11883,67 +12326,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
-      "name": "Door Opens",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "door",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "tutorialEnd",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "animationEvent",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "folded": true,
       "name": "Using Potions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12022,6 +12404,18 @@
                 "=",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "15hours_GJ_winD_24-01-2026.mp3",
+                "",
+                "60",
+                "1"
+              ]
             }
           ]
         }
@@ -12033,7 +12427,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "NPC Behaviour",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12134,6 +12527,256 @@
                 "Prince",
                 "=",
                 "4"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Show Description",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "ingredients",
+                "CursorX()",
+                "CursorY()",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "ingredients",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "mouseHasClicked",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "descriptionOn",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "ingredients",
+                "CursorX()",
+                "CursorY()",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "descriptionOn",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "description",
+                    "ingredients.CenterX()-25",
+                    "ingredients.Y()-10",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "description",
+                    "Text",
+                    "=",
+                    "ingredients.name"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "description",
+                    "=",
+                    "51"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "ingredients",
+                "CursorX()",
+                "CursorY()",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "ingredients",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "descriptionOn",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "descriptionOn",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "descriptionOn",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "description",
+                ""
               ]
             }
           ]

@@ -1010,6 +1010,479 @@
         "name": "OOH_Symbol_Placeholder (1).png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Fire_Resistance_Potion_FR.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire_Resistance_Potion_FR.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/descriptionBackground.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "descriptionBackground",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "IMFellEnglish-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "IMFellEnglish-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "Description background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Description background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "15hours_GJ_winD_24-01-2026.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "15hours_GJ_winD_24-01-2026.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Generic_Potion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Generic_Potion.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion_Of_Unlocking.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion_Of_Unlocking.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Cats_Eye_Tincture.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Cats_Eye_Tincture.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Fire_Resistance_Potion_FR.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Fire_Resistance_Potion_FR.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion_Of_Darkness.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion_Of_Darkness.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion_Of_Illumination.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion_Of_Illumination.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Strength_Draught V1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Strength_Draught V1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Bubbling Liquid/Bubbling_Liquid-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Bubbling Liquid\\Bubbling_Liquid-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Bubbling Liquid/Bubbling_Liquid-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Bubbling Liquid\\Bubbling_Liquid-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Bubbling Liquid/Bubbling_Liquid-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Bubbling Liquid\\Bubbling_Liquid-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion Brewing/Potion_Brewing-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion Brewing/Potion_Brewing-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion Brewing/Potion_Brewing-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion Brewing/Potion_Brewing-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion Brewing/Potion_Brewing-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion Brewing/Potion_Brewing-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion Brewing/Potion_Brewing-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion Brewing/Potion_Brewing-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion Brewing/Potion_Brewing-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion Brewing/Potion_Brewing-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion Brewing/Potion_Brewing-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Potions/Potion Brewing/Potion_Brewing-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Potions\\Potion Brewing\\Potion_Brewing-12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Vampire_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Vampire_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Goblin_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Goblin_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Dragon_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Dragon_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Prince.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Prince.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Prince with Golden Hair.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Prince with Golden Hair.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Cat/Cat-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Cat\\Cat-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Cat/Cat-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Cat\\Cat-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Cat/Cat-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Cat\\Cat-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Cat/Cat-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Cat\\Cat-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Cat/Cat-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Cat\\Cat-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Cat/Cat-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Cat\\Cat-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Cat/Cat-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Cat\\Cat-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Cat/Cat-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Cat\\Cat-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Cat/Cat-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Cat\\Cat-9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Cat/Cat-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Cat\\Cat-10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Cat/Cat-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Cat\\Cat-11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Cat/Cat-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Cat\\Cat-12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/UI elements/Placeholder text box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\UI elements\\Placeholder text box.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Mugwort_Plant_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Mugwort_Plant_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Voice_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Voice_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Nail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Nail.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Thistle_Placeholder2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Thistle_Placeholder2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Honey-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Honey-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Honey-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Honey-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Eye Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Eye Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Ink Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Ink Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Stardust Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Stardust Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Teeth Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Teeth Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Turmeric.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Turmeric.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Snake_Skin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Snake_Skin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Mugwort_Leaf_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Mugwort_Leaf_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/OOH_Symbol_Placeholder (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\OOH_Symbol_Placeholder (1).png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
