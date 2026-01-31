@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7360497255174764,
+    "zoomFactor": 0.7608695652173949,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -177,6 +177,7 @@
       "value": false
     },
     {
+      "folded": true,
       "name": "ingredientsCheck",
       "type": "structure",
       "children": [
@@ -226,6 +227,11 @@
           "value": false
         },
         {
+          "name": "addedStory",
+          "type": "boolean",
+          "value": false
+        },
+        {
           "name": "addedTeeth",
           "type": "boolean",
           "value": false
@@ -251,6 +257,11 @@
       "name": "descriptionOn",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "page",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -360,14 +371,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 265,
+      "height": 288,
       "keepRatio": true,
       "layer": "",
       "name": "potionApparatusShelf",
       "persistentUuid": "29254f0f-da8e-42b5-91a6-b1e5e9027464",
-      "width": 228,
-      "x": 15,
-      "y": 194,
+      "width": 235,
+      "x": 8,
+      "y": 171,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -377,14 +388,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 489,
+      "height": 475,
       "keepRatio": true,
       "layer": "",
       "name": "potionApparatus",
       "persistentUuid": "0ba41383-f35b-47f4-a097-a4a867c7d476",
-      "width": 241,
-      "x": -39,
-      "y": 173,
+      "width": 219,
+      "x": -22,
+      "y": 187,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -534,8 +545,8 @@
       "name": "trashBack",
       "persistentUuid": "ee23f9b5-5aab-42b9-b7bd-98ea52c28ae4",
       "width": 0,
-      "x": 94,
-      "y": 84,
+      "x": 95,
+      "y": 64,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -550,8 +561,8 @@
       "name": "trashButton",
       "persistentUuid": "75a2a028-5c59-4644-9566-0514c9f69751",
       "width": 0,
-      "x": 107,
-      "y": 148,
+      "x": 108,
+      "y": 126,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -675,17 +686,18 @@
       "initialVariables": []
     },
     {
-      "angle": 307,
-      "customSize": false,
-      "height": 0,
+      "angle": 87,
+      "customSize": true,
+      "depth": 1,
+      "height": 69,
       "keepRatio": true,
       "layer": "The Book",
       "name": "closeBookButton",
       "persistentUuid": "42afbcba-467c-4116-a13d-893b3c2ca6f3",
-      "width": 0,
-      "x": 40,
-      "y": 598,
-      "zOrder": 21,
+      "width": 92,
+      "x": 416,
+      "y": 18,
+      "zOrder": 70,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -734,7 +746,7 @@
       "width": 0,
       "x": 793,
       "y": 23,
-      "zOrder": 27,
+      "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -750,7 +762,7 @@
       "width": 0,
       "x": 38,
       "y": 19,
-      "zOrder": 28,
+      "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1193,6 +1205,90 @@
       "x": 245,
       "y": 229,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 134,
+      "keepRatio": true,
+      "layer": "",
+      "name": "story",
+      "persistentUuid": "17aae3c0-defc-417e-b582-e8118e82a0b6",
+      "width": 217,
+      "x": 335,
+      "y": 447,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 215,
+      "customSize": true,
+      "depth": 1,
+      "height": 81,
+      "keepRatio": true,
+      "layer": "Story Note",
+      "name": "closeNote",
+      "persistentUuid": "840151af-40d3-489d-ba2a-8aa7fae09868",
+      "width": 107,
+      "x": 629,
+      "y": 605,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 740,
+      "keepRatio": true,
+      "layer": "Story Note",
+      "name": "storyPaper",
+      "persistentUuid": "9ef18f5b-580f-4548-8f57-23b5db47ef26",
+      "width": 673,
+      "x": 104,
+      "y": -21,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 55,
+      "keepRatio": true,
+      "layer": "Story Note",
+      "name": "storyFlip",
+      "persistentUuid": "cc02f5ec-4a42-4213-bc24-25bb4948abff",
+      "width": 66,
+      "x": 658,
+      "y": 34,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "The Book",
+      "name": "pages",
+      "persistentUuid": "565913c5-7bc3-4d5c-805f-997680dc41bb",
+      "width": 0,
+      "x": 3,
+      "y": -6,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4896,7 +4992,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Art assets\\Ingredients\\Stardust Placeholder.png",
+                  "image": "Art assets\\Ingredients\\Sage_Placeholder.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4912,20 +5008,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 15,
+                        "y": 36
                       },
                       {
-                        "x": 162,
-                        "y": 9
+                        "x": 315,
+                        "y": 36
                       },
                       {
-                        "x": 162,
-                        "y": 211
+                        "x": 315,
+                        "y": 274
                       },
                       {
-                        "x": 41,
-                        "y": 211
+                        "x": 15,
+                        "y": 274
                       }
                     ]
                   ]
@@ -7914,6 +8010,775 @@
         "lineHeight": 0,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "storyPaper",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art assets\\UI elements\\Other\\tale-of-mighty-draft.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 32,
+                        "y": 38
+                      },
+                      {
+                        "x": 536,
+                        "y": 38
+                      },
+                      {
+                        "x": 536,
+                        "y": 597
+                      },
+                      {
+                        "x": 32,
+                        "y": 597
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art assets\\UI elements\\Other\\tale-of-mighty-draft-back.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 32,
+                        "y": 38
+                      },
+                      {
+                        "x": 536,
+                        "y": 38
+                      },
+                      {
+                        "x": 536,
+                        "y": 597
+                      },
+                      {
+                        "x": 32,
+                        "y": 597
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "story",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics",
+          "PhysicsBehavior": "Physics2",
+          "MouseButton": "Left",
+          "MaxForce": 500,
+          "Frequency": 10,
+          "Damping": 1,
+          "MouseJointID": 1.00000000000091,
+          "EnableAutomaticDragging": false
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 2,
+          "friction": 0.3,
+          "restitution": 0.01,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art assets\\Ingredients\\Story_Paper_Down.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 32
+                      },
+                      {
+                        "x": 150,
+                        "y": 32
+                      },
+                      {
+                        "x": 150,
+                        "y": 84
+                      },
+                      {
+                        "x": 14,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "closeNote",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art assets\\UI elements\\Other\\Arrow_To_Other_Screen.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 103,
+                        "y": 15
+                      },
+                      {
+                        "x": 103,
+                        "y": 76
+                      },
+                      {
+                        "x": 16,
+                        "y": 76
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "storyFlip",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Story_Flip - Copy",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Story_Flip - Copy.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 6
+                      },
+                      {
+                        "x": 48,
+                        "y": 6
+                      },
+                      {
+                        "x": 48,
+                        "y": 47
+                      },
+                      {
+                        "x": 0,
+                        "y": 47
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Story_Flip",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Story_Flip.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 6
+                      },
+                      {
+                        "x": 48,
+                        "y": 6
+                      },
+                      {
+                        "x": 48,
+                        "y": 47
+                      },
+                      {
+                        "x": 0,
+                        "y": 47
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "pages",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art assets\\UI elements\\Potion Book\\0_table-of-contents.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 78,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 648
+                      },
+                      {
+                        "x": 78,
+                        "y": 648
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art assets\\UI elements\\Potion Book\\1-2_foreword.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 78,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 648
+                      },
+                      {
+                        "x": 78,
+                        "y": 648
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art assets\\UI elements\\Potion Book\\3-4_cat's-eye-tincture.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 78,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 648
+                      },
+                      {
+                        "x": 78,
+                        "y": 648
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art assets\\UI elements\\Potion Book\\5-6_potion-of-darkness.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 78,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 648
+                      },
+                      {
+                        "x": 78,
+                        "y": 648
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art assets\\UI elements\\Potion Book\\7-8_potion-of-fire-resistance.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 78,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 648
+                      },
+                      {
+                        "x": 78,
+                        "y": 648
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art assets\\UI elements\\Potion Book\\9-10_potion-of-illumination.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 78,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 648
+                      },
+                      {
+                        "x": 78,
+                        "y": 648
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art assets\\UI elements\\Potion Book\\11-12_strength-draught.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 78,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 648
+                      },
+                      {
+                        "x": 78,
+                        "y": 648
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Art assets\\UI elements\\Potion Book\\13-14_potion-of-unlocking.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 78,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 75
+                      },
+                      {
+                        "x": 844,
+                        "y": 648
+                      },
+                      {
+                        "x": 78,
+                        "y": 648
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -7972,13 +8837,16 @@
         ]
       },
       {
-        "folderName": "Dialogue",
+        "folderName": "Dialogue and Text",
         "children": [
           {
             "objectName": "dialogue"
           },
           {
             "objectName": "textBox"
+          },
+          {
+            "objectName": "description"
           }
         ]
       },
@@ -7999,6 +8867,9 @@
           },
           {
             "objectName": "closeBookButton"
+          },
+          {
+            "objectName": "pages"
           }
         ]
       },
@@ -8058,6 +8929,9 @@
           },
           {
             "objectName": "bottleEmpty"
+          },
+          {
+            "objectName": "story"
           }
         ]
       },
@@ -8083,6 +8957,15 @@
           },
           {
             "objectName": "arrow"
+          },
+          {
+            "objectName": "storyPaper"
+          },
+          {
+            "objectName": "closeNote"
+          },
+          {
+            "objectName": "storyFlip"
           }
         ]
       },
@@ -8140,9 +9023,6 @@
             "objectName": "floor"
           }
         ]
-      },
-      {
-        "objectName": "description"
       }
     ]
   },
@@ -8152,7 +9032,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Tests (These should be deleted)",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9343,6 +10222,16 @@
                 "",
                 "\"Left\""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "popUp",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -9410,6 +10299,16 @@
                 "",
                 "\"Left\""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "popUp",
+                "False",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -9450,6 +10349,63 @@
               "parameters": [
                 "mouseHasClicked",
                 "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "story",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "popUp",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "story",
+                "Physics2",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "DraggablePhysics::DraggablePhysics::StartDragging"
+              },
+              "parameters": [
+                "story",
+                "DraggablePhysics",
                 ""
               ]
             }
@@ -9583,6 +10539,16 @@
               },
               "parameters": [
                 "mugwortLeaf",
+                "DraggablePhysics",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DraggablePhysics::DraggablePhysics::ReleaseDrag"
+              },
+              "parameters": [
+                "story",
                 "DraggablePhysics",
                 ""
               ]
@@ -10220,6 +11186,75 @@
               },
               "parameters": [
                 "nail",
+                "Physics2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "story",
+                "bubblingLiquid",
+                "bubblingLiquid",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "potionBrewed",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ingredientsCheck.addedStory",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "cauldronCounter",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "story",
+                "=",
+                "-1000"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "story",
                 "Physics2",
                 ""
               ]
@@ -11056,6 +12091,137 @@
                 "textG": 0,
                 "textR": 0
               },
+              "comment": "Cat's Eye Tincture"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedMugwort",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedSage",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedThistle",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck.addedStory",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "potions",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "catsEyeTincture",
+                    "69",
+                    "303",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "catsEyeTincture",
+                    "Resizable",
+                    "162",
+                    "131"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "catsEyeTincture",
+                    "=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "potions",
+                    "Physics2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "recipeMade",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "ingredientsCheck",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "Generic potion is made if the incorrect ingredients are used."
             },
             {
@@ -11148,6 +12314,413 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
+      "name": "Story",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Double click to read the story on the note"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "story",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DoubleClick::HasDoubleClicked"
+              },
+              "parameters": [
+                "",
+                "\"Left\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "popUp",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Story Note\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "popUp",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Flip to back side of paper"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "storyFlip",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Index"
+              },
+              "parameters": [
+                "storyPaper",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "folha_14-06-2025.mp3",
+                "",
+                "soundVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "storyPaper",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "storyFlip",
+                "=",
+                "160",
+                "=",
+                "34"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "storyFlip",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "storyFlip",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Index"
+              },
+              "parameters": [
+                "storyPaper",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "folha_14-06-2025.mp3",
+                "",
+                "soundVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "storyPaper",
+                "Animation",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "storyFlip",
+                "=",
+                "659",
+                "=",
+                "35"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "storyFlip",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "closeNote",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Story Note\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "mouseHasClicked",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "popUp",
+                "False",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "name": "Book",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11168,11 +12741,12 @@
             },
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
+                "value": "DoubleClick::HasDoubleClicked"
               },
               "parameters": [
                 "",
-                "\"Left\""
+                "\"Left\"",
+                ""
               ]
             },
             {
@@ -11222,6 +12796,16 @@
               },
               "parameters": [
                 "mouseHasClicked",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "popUp",
                 "True",
                 ""
               ]
@@ -11389,6 +12973,16 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "popUp",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -11418,6 +13012,16 @@
               "parameters": [
                 "mouseHasClicked",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "popUp",
+                "False",
                 ""
               ]
             }
@@ -11451,20 +13055,11 @@
             },
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
+                "value": "DoubleClick::HasSimpleClicked"
               },
               "parameters": [
                 "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "mouseHasClicked",
-                "False",
+                "\"Left\"",
                 ""
               ]
             },
@@ -11473,9 +13068,29 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "currentPage",
+                "page",
                 ">=",
-                "4"
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "page",
+                "<=",
+                "7"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "popUp",
+                "True",
+                ""
               ]
             }
           ],
@@ -11492,16 +13107,6 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "mouseHasClicked",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
@@ -11509,6 +13114,16 @@
                 "folha_14-06-2025.mp3",
                 "",
                 "soundVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "page",
+                "-",
                 "1"
               ]
             }
@@ -11659,20 +13274,11 @@
             },
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
+                "value": "DoubleClick::HasSimpleClicked"
               },
               "parameters": [
                 "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "mouseHasClicked",
-                "False",
+                "\"Left\"",
                 ""
               ]
             },
@@ -11681,9 +13287,29 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "currentPage",
-                "<",
-                "pageCounter"
+                "page",
+                "<=",
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "page",
+                ">=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "popUp",
+                "True",
+                ""
               ]
             }
           ],
@@ -11700,16 +13326,6 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "mouseHasClicked",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
@@ -11717,6 +13333,16 @@
                 "folha_14-06-2025.mp3",
                 "",
                 "soundVolume",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "page",
+                "+",
                 "1"
               ]
             }
@@ -11751,9 +13377,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "currentPage",
+                        "page",
                         "<=",
-                        "2"
+                        "0"
                       ]
                     }
                   ],
@@ -11776,9 +13402,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "currentPage",
+                        "page",
                         ">=",
-                        "4"
+                        "1"
                       ]
                     }
                   ],
@@ -11802,9 +13428,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "currentPage",
+                        "page",
                         ">=",
-                        "pageCounter"
+                        "6"
                       ]
                     }
                   ],
@@ -11827,9 +13453,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "currentPage",
-                        "<",
-                        "pageCounter"
+                        "page",
+                        "<=",
+                        "6"
                       ]
                     }
                   ],
@@ -11847,6 +13473,23 @@
                 }
               ],
               "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "pages",
+                "Animation",
+                "=",
+                "page"
+              ]
             }
           ]
         }
@@ -12326,6 +13969,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Using Potions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -13022,6 +14666,60 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "The Book",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Story Note",
       "renderingType": "",
       "visibility": false,
       "cameras": [],

@@ -1483,6 +1483,141 @@
         "name": "Art assets\\OOH_Symbol_Placeholder (1).png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Art assets/UI elements/Story_Paper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\UI elements\\Story_Paper.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Inkfree.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Inkfree.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Story_Paper_Down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Story_Paper_Down.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Story_Flip.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Story_Flip.png\",\"extension\":\".png\"}",
+        "name": "Story_Flip.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/UI elements/Other/might-draft_front.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\UI elements\\Other\\might-draft_front.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Ingredients/Sage_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Ingredients\\Sage_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/UI elements/Other/tale-of-mighty-draft.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\UI elements\\Other\\tale-of-mighty-draft.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/UI elements/Other/tale-of-mighty-draft-back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\UI elements\\Other\\tale-of-mighty-draft-back.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Story_Flip - Copy.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Story_Flip - Copy.png\",\"extension\":\".png\"}",
+        "name": "Story_Flip - Copy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/UI elements/Potion Book/0_table-of-contents.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\UI elements\\Potion Book\\0_table-of-contents.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/UI elements/Potion Book/1-2_foreword.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\UI elements\\Potion Book\\1-2_foreword.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/UI elements/Potion Book/3-4_cat's-eye-tincture.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\UI elements\\Potion Book\\3-4_cat's-eye-tincture.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/UI elements/Potion Book/5-6_potion-of-darkness.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\UI elements\\Potion Book\\5-6_potion-of-darkness.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/UI elements/Potion Book/7-8_potion-of-fire-resistance.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\UI elements\\Potion Book\\7-8_potion-of-fire-resistance.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/UI elements/Potion Book/9-10_potion-of-illumination.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\UI elements\\Potion Book\\9-10_potion-of-illumination.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/UI elements/Potion Book/11-12_strength-draught.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\UI elements\\Potion Book\\11-12_strength-draught.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/UI elements/Potion Book/13-14_potion-of-unlocking.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\UI elements\\Potion Book\\13-14_potion-of-unlocking.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1523,6 +1658,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/stayonscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/doubleclick"
     }
   ],
   "externalLayouts": []
