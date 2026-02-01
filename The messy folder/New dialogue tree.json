@@ -64,18 +64,18 @@
 		"tags": "",
 		"body": "<< actorSwitchRightGoblin>> \r\nMy turn.\r\n<< leftPlayer>> \r\nI tried to tell you, we're not actually open!\r\n<< rightSpeaker>> \r\nI’ll respect it if you say so, but it’s a reeeeally simple potion. \r\nPretty please?\r\n<< leftPlayer>> \r\n...I would like to have some human-food money too.\r\n<< rightSpeaker>> \r\nI knew you were cool!\r\n<< leftPlayer>> \r\nWhat can I do for you?\r\n<< rightSpeaker>> \r\nMake the potion from “The Tale of the Mighty Draught”!\r\n<< leftPlayer>> \r\nThe bedtime story??\r\n<< rightSpeaker>> \r\nYes! \r\nThe folks at the adventurer’s guild aren’t taking me seriously, saying my sword is too big for me.\r\n<< leftPlayer>> \r\nRight.\r\n<< rightSpeaker>> \r\nThat’s bollocks, of course.\r\nBut with a strength potion, I could throw them around a lil bit, making them regret underestimating me!\r\n<< leftPlayer>> \r\nI’m not making potions for violence.\r\n<< rightSpeaker>> \r\nAlright, I hear you, I promise to only challenge them to arm wrestling.\r\nHere’s the potion instructions.\r\n<< leftNarrator>> \r\nThe “instructions” are a copy of the popular bedtime story, hastily scribbled on a used napkin.\r\n<< leftPlayer>> \r\n...I’ll see what I can do. I’m sure there’s a strength potion I can use in the witch’s book instead.\r\n<< close>> \r\nPH",
 		"position": {
-			"x": -1312,
-			"y": -1309
+			"x": -1205,
+			"y": -1448
 		},
-		"colorID": 0
+		"colorID": 8
 	},
 	{
 		"title": "goblinStrengthPotionComplete",
 		"tags": "",
 		"body": "<<actorSwitchRightGoblin>>\r\nThis is it!\r\n<< leftPlayer>> \r\nYou haven’t even tried it yet.\r\n<< rightSpeaker>> \r\nI don’t need to, I saw you make it just like the story. This is it!\r\n<< leftNarrator>> \r\nShe takes a swig of the strength potion.\r\n<< rightSpeaker>> \r\nYES. I feel the strength rushing through me, I can do anything!\r\n<< leftNarrator>> \r\nShe takes the sword from the prince’s hand, holding it up in the air like it weighs nothing.\r\n<< rightSpeaker>> \r\nThank you, potion witch!\r\n<< leftPlayer>> \r\nYou know, there’s a moral to the story.\r\nAbout the nail’s contribution specifically.\r\n<< rightSpeaker>> \r\nI know the moral! All 4 friends had to work together and use their differences to make something great!\r\n<< leftPlayer>> \r\n*chuckle* I like that interpretation. I hope the potion serves you well.\r\n<< rightSpeaker>> \r\nSpeaking of friends, come over here, little prince.\r\n<< actorSwitchLeftPrinceShining>> \r\nAbsolutely dreadful. My poor, poor nails…\r\n<< rightSpeaker>> \r\nYou did well today! Here’s your payment, the price of a potion.\r\n<< leftNarrator>> \r\nShe puts 4 gold coins on the table. The prince looks exhausted, but proud of himself.\r\n…until the goblin takes a coin away.\r\n<<rightSpeaker>> \r\nAaaand that’s the 25 percent tax paid to the royals.\r\n<< leftNarrator>> \r\nThe prince looks devastated.\r\n<< rightSpeaker>> \r\nHahaha, just kidding! \r\n<<leftSpeaker>>\r\nToying with my delicate heart…\r\nI’ll return with the proper currency next time.\r\n<< rightSpeaker>> \r\nYou’re alright, little prince. Let’s go to the tavern!\r\n<< leftSpeaker>> \r\nThe tavern?\r\n<< rightSpeaker>> \r\nIt’s the best part of any workday! \r\nWe sit together for a meal and toast to a job well done!\r\nIt’s right across the street!\r\n<< leftNarrator>> \r\nThe prince looks appalled.\r\n<< leftSpeaker>> \r\nYou can’t possibly mean… there? \r\nWhere the floors are dirty from spilled beer and soiled boots?\r\nWith those foul-mouthed ruffians?\r\n<< rightSpeaker>> \r\nWith any luck it is! They know how to party!\r\n<<leftSpeaker>>\r\nWell, I’d never…!\r\n<< leftNarrator>> \r\nHe turns his head away, hiding a slight blush\r\n<<leftSpeaker>>\r\nI…\r\nI shouldn’t squander such a… learning opportunity, as you called it. \r\nI shall accompany you to this… tavern.\r\n<< rightSpeaker>> \r\nThat’s the spirit!\r\n<<leftNarrator>>\r\nThe goblin slaps him on the back, and they leave together.\r\n<<actorSwitchLeftNothing>>\r\n<< actorSwitchRightNothing>>\r\n<< leftNarrator>> \r\nThe sun has set and you take a moment to relax.\r\n<< leftPlayer>> \r\nPhew, that’s enough for one day. \r\nIt’s not what I planned, but…\r\n<< rightSpeaker>> \r\nMeow!\r\n<< leftPlayer>> \r\nI agree. I’m happy I got to help them.\r\n<< close>> \r\nPH",
 		"position": {
-			"x": -1394,
-			"y": -1104
+			"x": -1414,
+			"y": -1449
 		},
 		"colorID": 0
 	},

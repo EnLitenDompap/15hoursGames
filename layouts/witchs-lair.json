@@ -7925,9 +7925,50 @@
       "name": "story",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "name",
+          "type": "string",
+          "value": "story"
+        }
+      ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics",
+          "PhysicsBehavior": "Physics2",
+          "MouseButton": "Left",
+          "MaxForce": 500,
+          "Frequency": 10,
+          "Damping": 1,
+          "MouseJointID": 1.00000000000091,
+          "EnableAutomaticDragging": false
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 2,
+          "friction": 0.3,
+          "restitution": 0.01,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -10584,6 +10625,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Cauldron",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12370,6 +12412,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12581,6 +12624,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Yarn UI System (Dialogue UI control)",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12633,7 +12677,6 @@
           ],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -13091,6 +13134,7 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -13167,6 +13211,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -13243,6 +13288,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -14031,7 +14077,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Bottom Right Bubbles",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
