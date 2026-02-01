@@ -1890,6 +1890,14 @@
         "metadata": "{\"localFilePath\":\"The messy folder/New dialogue tree.json\",\"extension\":\".json\"}",
         "name": "The messy folder\\New dialogue tree.json",
         "userAdded": false
+      },
+      {
+        "file": "Prince_cloaked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Prince_cloaked.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

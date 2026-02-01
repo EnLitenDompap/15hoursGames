@@ -2,10 +2,10 @@
 	{
 		"title": "openingScene",
 		"tags": "",
-		"body": "<< leftPlayer>> \r\nSacrefice Dialogue\r\n“Good morning, Ms. Kitty”\r\n<< rightSpeaker>> \r\n“Meow”\r\n<< leftPlayer>> \r\n“Still no sign of my aunt. Or anyone who will adopt you.”\r\n<< rightSpeaker>> \r\n“Mrrp?”\r\n<< leftPlayer>> \r\n“Don’t worry, you still got me for another 4 days, until I begin my job as a\r\n*sigh* storage levitation witch. 5 years of witch school and I’m cheaper than a forklift.”\r\n<< leftNarrator>> \r\n[b]There is a knock on the door.[/b]\r\n<< leftPlayer>> \r\n“Oh, maybe they’re here for you, Ms. Kitty!”\r\n“Fiddlesticks, where did my aunt put the keys?”\r\n“I don’t have time for this, I’ll just use what’s around me.\r\nSurely there’s a lockpick potion in her witch’s book.” \r\n“I can switch between the storefront and the lab by clicking the arrow in the corner.”\r\n<<scene1>> \r\n<<close>>\r\n...",
+		"body": "<< leftPlayer>> \r\nSacrefice Dialogue\r\nGood morning, Ms. Kitty\r\n<< rightSpeaker>> \r\nMeow!\r\n<< leftPlayer>> \r\nStill no sign of my aunt. Or anyone who will adopt you.\r\n<< rightSpeaker>> \r\nMrrp?\r\n<< leftPlayer>> \r\n“Don’t worry, you still got me for another 4 days, until I begin my job as a\r\n<< leftRepeater>> \r\n*sigh* storage levitation witch. 5 years of witch school and I’m cheaper than a forklift.”\r\n<< leftNarrator>> \r\n[b]There is a knock on the door.[/b]\r\n<< leftPlayer>> \r\n“Oh, maybe they’re here for you, Ms. Kitty!”\r\n<< leftRepeater>> \r\n“Fiddlesticks, where did my aunt put the keys?”\r\n<< leftRepeater>> \r\n“I don’t have time for this, I’ll just use what’s around me.\r\n<< leftRepeater>> \r\nSurely there’s a lockpick potion in her witch’s book.” \r\n<< leftRepeater>> \r\n“I can switch between the storefront and the lab by clicking the arrow in the corner.”\r\n<<scene1>> \r\n<<close>>\r\n...",
 		"position": {
-			"x": -2128,
-			"y": -1682
+			"x": -2129,
+			"y": -1684
 		},
 		"colorID": 0
 	},
@@ -14,35 +14,35 @@
 		"tags": "",
 		"body": "<< leftSpeaker>> \nPH\nAlright, then I drag the ingredients into the cauldron. Every potion uses 4 ingredients.\n<< close>>\nPH",
 		"position": {
-			"x": -1700,
-			"y": -1684
+			"x": -1690,
+			"y": -1688
 		},
 		"colorID": 0
 	},
 	{
 		"title": "makingWrongPotion",
 		"tags": "",
-		"body": "<< leftSpeaker>> \r\nPH\r\nNo, that’s not right. I have the recipe in the book, \r\nbut the last ingredient is scratched off.\r\nI can look at ingredient names by mousing over an ingredient.\r\n<< scene3>> \r\n<< close>>\r\nPH",
+		"body": "<< leftSpeaker>> \r\n...\r\nNo, that’s not right. I have the recipe in the book, \r\n<< leftRepeater>> \r\nbut the last ingredient is scratched off.\r\n<< leftRepeater>> \r\nI can look at ingredient names by mousing over an ingredient.\r\n<< scene2>> \r\n<< close>>\r\n...",
 		"position": {
-			"x": -1492,
-			"y": -1682
+			"x": -1474,
+			"y": -1685
 		},
-		"colorID": 0
+		"colorID": 8
 	},
 	{
 		"title": "makingCorrrectPotionOfUnlocking",
 		"tags": "",
-		"body": "<< leftSpeaker>>\nPH\nPerfect! Now I just need to drag this onto the door.\n<< close>>\nPH",
+		"body": "<< leftSpeaker>>\n...\nPerfect! Now I just need to drag this onto the door.\n<< close>>\n...",
 		"position": {
-			"x": -1277,
-			"y": -1680
+			"x": -1258,
+			"y": -1684
 		},
 		"colorID": 0
 	},
 	{
 		"title": "openingDoorAndMeetingPrince",
 		"tags": "",
-		"body": "<< leftSpeaker>>\nPH\nThere, now it should be open! \nGood morning, are you here about the cat?\n<< leftNarrator>> \n[b]A man walks in with a cape tightly held around him and the hood over his head, [/b]\n[b]despite it being a warm and sunny day outside. [/b]\n[b]He looks in every direction before walking in.[/b]\n<< leftSpeaker>> \nMay I ask your name?\n<<  actorSwitchRightPrinceHooded>>\n<< rightSpeaker>>\nDepends. Can you keep a secret?\n<< leftSpeaker>> \nPlease leave.\n<< rightSpeaker>> \nI’m just a friendly peasant, wishing to do business!\n<< leftSpeaker>>\nLeave before I turn you into a toad.\n<< rightSpeaker>>\nThat’s not the threat you think it is.\n<<leftNarrator>>\n[b]You ready your wand, and the mysterious man reveals himself.[/b]\n<< actorSwitchRightPrinceNormal>> \n<< rightSpeaker>>\nFor as the prince of this land, a kiss from a beautiful maiden would transform me back!\n<< leftSpeaker>> \n...\n<< rightSpeaker>>\n...\n<< leftNarrator>> \n[b]You lift a coin to compare them.[/b]\n<< leftSpeaker>> \nYour highness.\n<< rightSpeaker>> \nNo need to apologize.\n<< leftSpeaker>> \nSurely you have capable alchemists at the castle?\n<< leftNarrator>> \n[b]His royal facade breaks into tears.[/b]\n<< rightSpeaker>> \nWho do you think FAILED me? \nI’ve made them work on this for weeks, and now they’re no longer answering my summons!\n<< leftSpeaker>> \nYour highness, I don’t even work here! \nI’ve barely finished witch school.\n<< rightSpeaker>> \nYou’re my only hope!!\n<< leftSpeaker>>\nI’m sorry, I-\nActually, I did just run out of catfood money.\n<< rightSpeaker>> \nMeow\n<< leftSpeaker>> \nAlright, just… tell me what you need and I’ll see what I can do.\nFirst, I need more details. \nI can click on any character to ask them questions.\n<<scene6 >> \n<< close>> \nPH",
+		"body": "<< leftPlayer>>\n...\nThere, now it should be open! \n<< leftPlayer>> \nGood morning, are you here about the cat?\n<< leftNarrator>> \n[b]A man walks in with a cape tightly held around him and the hood over his head, [/b]\n<< leftNarrator>> \n[b]despite it being a warm and sunny day outside. [/b]\n<< leftNarrator>> \n[b]He looks in every direction before walking in.[/b]\n<< leftPlayer>> \nMay I ask your name?\n<<  actorSwitchRightPrinceHooded>>\n<< rightSpeaker>>\nDepends. Can you keep a secret?\n<< leftPlayer>> \nPlease leave.\n<< rightSpeaker>> \nI’m just a friendly peasant, wishing to do business!\n<< leftPlayer>>\nLeave before I turn you into a toad.\n<< rightSpeaker>>\nThat’s not the threat you think it is.\n<<leftNarrator>>\n[b]You ready your wand, and the mysterious man reveals himself.[/b]\n<< actorSwitchRightPrinceNormal>> \n<< rightSpeaker>>\nFor as the prince of this land, a kiss from a beautiful maiden would transform me back!\n<< leftPlayer>> \n...\n<< rightSpeaker>>\n...\n<< leftNarrator>> \n[b]You lift a coin to compare them.[/b]\n<< leftPlayer>> \nYour highness.\n<< rightSpeaker>> \nNo need to apologize.\n<< leftPlayer>> \nSurely you have capable alchemists at the castle?\n<< leftNarrator>> \n[b]His royal facade breaks into tears.[/b]\n<< rightSpeaker>> \nWho do you think FAILED me? \n<< rightRepeater>> \nI’ve made them work on this for weeks, and now they’re no longer answering my summons!\n<< leftSpeaker>> \nYour highness, I don’t even work here! \nI’ve barely finished witch school.\n<< rightSpeaker>> \nYou’re my only hope!!\n<< leftSpeaker>>\nI’m sorry, I-\nActually, I did just run out of catfood money.\n<< rightSpeaker>> \nMeow\n<< leftSpeaker>> \nAlright, just… tell me what you need and I’ll see what I can do.\nFirst, I need more details. \nI can click on any character to ask them questions.\n<<princeInstruction>> \n<< close>> \nPH",
 		"position": {
 			"x": -2138,
 			"y": -1448
@@ -52,10 +52,10 @@
 	{
 		"title": "completePotionOfIlllumination",
 		"tags": "",
-		"body": "<< rightNarrator>> \nThe potion shines brightly.\n<< actorSwitchRightPrinceNormal>> \n<< rightSpeaker>> \nIs this it?\n<<leftPlayer>> \nYes. Just make sure to-\n<< rightNarrator>> \nThe doorbell rings and a goblin walks in. \nShe is dragging a sword along the floor that is way too big for her.\n<< leftPlayer>> I forgot to lock the door…\n<< actorSwitchRightGoblin>> \n<< rightSpeaker>> \nOh, you’re open again! Perfect, I need a potion that-”\n<< actorSwitchLeftPrinceNormal>> \n<< leftSpeaker>> \nAHEM.\n<< rightNarrator>> \nThe goblin looks at him for a moment, and then at you.\n<< rightSpeaker>>\n“What’s his problem?”\nYou’re cutting in line. \n<< actorSwitchLeftNothing>>\n<< leftPlayer>> \nBut more importantly, we’re not actually op-\n<< rightSpeaker>> \nOh, my bad, blondie.\n<< leftPlayer>> \n*sigh*\n<< actorSwitchLeftPrinceNormal>> \n<< leftSpeaker>> \nLittle goblin, you are to show proper manners for someone of my status!\n<< rightSpeaker>> \nI don’t know who you are, hotshot.\n<< leftSpeaker>> \nSurely, you recognize me. You must!\n<< rightSpeaker>> \nYou must mistake me for some other goblin.\n<<leftSpeaker>>\nI’m the prince of this land!\n<<rightNarrator>> \nThe goblin studies him, not really believing it.\n<< leftSpeaker>> \nPlease, just look at the coin you’re holding.\n<< rightNarrator>> \nShe raises the coin up, comparing them.\n<<rightSpeaker>> \nOh yeah! I pay taxes to you!\n<< leftSpeaker>> \nFinally!\n<< rightSpeaker>> \nSo what kind of work brings you here, then?\n<< leftSpeaker>> \nPardon?\n<< rightSpeaker>> \nI’m paying you, aren’t I? What princely business is it spent on for the good of the kingdom?\n<< leftSpeaker>> \nCan’t you tell? My golden locks, of course! A prince has to look fabulous!\n<< rightNarrator>> \nThe goblin is looks very unimpressed.\n<< rightSpeaker>> \nUh-huh.\n<< leftSpeaker>> \nYou'll see. Just as soon as I use this potion!\n<< actorSwitchLeftNothing>> \n<< leftPlayer>> \nWait, you really should put on-\n<< leftNarrator>> \nToo late.\n<< leftSpeaker>> \n- gloves....\n<< leftNarrator>> \nThe prince puts some on his hands and then onto his hair, both starting to glow.\nHe looks at himself in the reflection of the bottle.\n<<actorSwitchLeftPrinceShining>>\nFabulous! Glorious! Spectacular! \nI have never looked better! \nMasterful witch, my saviour, please accept my deepest gratitude!\n<< leftPlayer>> \nIt was nothing, your highness.\n<< leftSpeaker>> \nTruly? Then we shall speak of it no further.\nOff to my adoring subjects!\n<< rightNarrator>> \nThe prince is about to run out the door, when his coat is held back by the goblin.\n<< rightSpeaker>> \nWait.\n<< leftSpeaker>> \nWhatever is the matter?\n<<rightSpeaker>>\nAren’t you forgetting something, little prince?\n<< leftSpeaker>> \n...\nOh, of course!\nMake me 2 more to bring with me!\n<< rightSpeaker>> \nYou forgot to pay!\n<< leftSpeaker>> \n...Pardon?\n<< rightSpeaker>> \nThese shiny coins you compare yourself to, you have to give them to the potionmaker!\n<< leftSpeaker>> \n... \n<< rightNarrator>> \nHe’s got that nervous look again.\n<< leftSpeaker>> \nIt’s always the, uh, chauffeur that pays for me.\n<< leftPlayer>> \nYou didn’t bring ANY money?\n<< rightNarrator>> \nYou pull the potion back.\n<< leftSpeaker>> \nNo, please, I’ll do anything!\n<< leftSpeaker>> \nI swear to the old oak and everything green, I’ll-!\n<< rightNarrator>> \nThe goblin’s expression suddenly changes from angry to mischievous.\n<< rightSpeaker>> \nActually, let’s turn this into a learning opportunity. \nLet me show you how things are done here in the “lower classes”, little prince.\nI'll pay.\n<< rightNarrator>> \nThe goblin shows him 4 golden coins in her hand.\n<< leftSpeaker>> \nYou will? My hair is saved-\n<< rightSpeaker>> \nIN RETURN for some honest, blue-collar work!\n<< leftSpeaker>> \nMy collar is white.\n<< rightSpeaker>> \nPolish my sword, squire!\n<< rightNarrator>> \nShe drops her sword in the prince’s hands, and both fall to the floor with his hands stuck under it.\n<<leftSpeaker>>\nMy nails! Why would you need such a heavy sword with your stature.\n<< rightSpeaker>> \nLess whining, more shining! Take this wax and cloth, and rub it over the sword.\n<< rightNarrator>> \nThe prince looks like he’s about to cry.\n<<leftSpeaker>>\nFor the good of the kingdom, I must!\n<< close>> \nPH",
+		"body": "<< rightNarrator>> \nThe potion shines brightly.\n<< actorSwitchRightPrinceNormal>> \n<< rightSpeaker>> \nIs this it?\n<<leftPlayer>> \nYes. Just make sure to-\n<< rightNarrator>> \nThe doorbell rings and a goblin walks in. \n<< rightNarrator>> \nShe is dragging a sword along the floor that is way too big for her.\n<< leftPlayer>> \nI forgot to lock the door…\n<< actorSwitchRightGoblin>> \n<< actorSwitchLeftPrinceNormal>> \n<< rightSpeaker>> \nOh, you’re open again! Perfect, I need a potion that-\n<< leftSpeaker>> \nAHEM.\n<< rightNarrator>> \n[b]The goblin looks at him for a moment, and then at you.[/b]\n<< rightSpeaker>>\nWhat’s his problem?\n<< leftPlayer>>\nYou’re cutting in line. \n<< leftPlayer>> \nBut more importantly, we’re not actually op-\n<< rightSpeaker>> \nOh, my bad, blondie.\n<< leftPlayer>> \n*sigh*\n<< leftSpeaker>> \nLittle goblin, you are to show proper manners for someone of my status!\n<< rightSpeaker>> \nI don’t know who you are, hotshot.\n<< leftSpeaker>> \nSurely, you recognize me. You must!\n<< rightSpeaker>> \nYou must mistake me for some other goblin.\n<<leftSpeaker>>\nI’m the prince of this land!\n<<rightNarrator>> \n[b]The goblin studies him, not really believing it.[/b]\n<< leftSpeaker>> \nPlease, just look at the coin you’re holding.\n<< rightNarrator>> \n[b]She raises the coin up, comparing them.[/b]\n<<rightSpeaker>> \nOh yeah! I pay taxes to you!\n<< leftSpeaker>> \nFinally!\n<< rightSpeaker>> \nSo what kind of work brings you here, then?\n<< leftSpeaker>> \nPardon?\n<< rightSpeaker>> \nI’m paying you, aren’t I? What princely business is it spent on for the good of the kingdom?\n<< leftSpeaker>> \nCan’t you tell? My golden locks, of course! A prince has to look fabulous!\n<< rightNarrator>> \nThe goblin is looks very unimpressed.\n<< rightSpeaker>> \nUh-huh.\n<< leftSpeaker>> \nYou'll see. Just as soon as I use this potion!\n<< actorSwitchLeftNothing>> \n<< leftPlayer>> \nWait, you really should put on-\n<< leftNarrator>> \nToo late.\n<< leftSpeaker>> \n- gloves....\n<< leftNarrator>> \nThe prince puts some on his hands and then onto his hair, both starting to glow.\nHe looks at himself in the reflection of the bottle.\n<<actorSwitchLeftPrinceShining>>\nFabulous! Glorious! Spectacular! \nI have never looked better! \nMasterful witch, my saviour, please accept my deepest gratitude!\n<< leftPlayer>> \nIt was nothing, your highness.\n<< leftSpeaker>> \nTruly? Then we shall speak of it no further.\nOff to my adoring subjects!\n<< rightNarrator>> \nThe prince is about to run out the door, when his coat is held back by the goblin.\n<< rightSpeaker>> \nWait.\n<< leftSpeaker>> \nWhatever is the matter?\n<<rightSpeaker>>\nAren’t you forgetting something, little prince?\n<< leftSpeaker>> \n...\nOh, of course!\nMake me 2 more to bring with me!\n<< rightSpeaker>> \nYou forgot to pay!\n<< leftSpeaker>> \n...Pardon?\n<< rightSpeaker>> \nThese shiny coins you compare yourself to, you have to give them to the potionmaker!\n<< leftSpeaker>> \n... \n<< rightNarrator>> \nHe’s got that nervous look again.\n<< leftSpeaker>> \nIt’s always the, uh, chauffeur that pays for me.\n<< leftPlayer>> \nYou didn’t bring ANY money?\n<< rightNarrator>> \nYou pull the potion back.\n<< leftSpeaker>> \nNo, please, I’ll do anything!\n<< leftSpeaker>> \nI swear to the old oak and everything green, I’ll-!\n<< rightNarrator>> \nThe goblin’s expression suddenly changes from angry to mischievous.\n<< rightSpeaker>> \nActually, let’s turn this into a learning opportunity. \nLet me show you how things are done here in the “lower classes”, little prince.\nI'll pay.\n<< rightNarrator>> \nThe goblin shows him 4 golden coins in her hand.\n<< leftSpeaker>> \nYou will? My hair is saved-\n<< rightSpeaker>> \nIN RETURN for some honest, blue-collar work!\n<< leftSpeaker>> \nMy collar is white.\n<< rightSpeaker>> \nPolish my sword, squire!\n<< rightNarrator>> \nShe drops her sword in the prince’s hands, and both fall to the floor with his hands stuck under it.\n<<leftSpeaker>>\nMy nails! Why would you need such a heavy sword with your stature.\n<< rightSpeaker>> \nLess whining, more shining! Take this wax and cloth, and rub it over the sword.\n<< rightNarrator>> \nThe prince looks like he’s about to cry.\n<<leftSpeaker>>\nFor the good of the kingdom, I must!\n<< goblinInstruction>> \n<<close>> \n...",
 		"position": {
-			"x": -1647,
-			"y": -1453
+			"x": -1688,
+			"y": -1447
 		},
 		"colorID": 8
 	},
@@ -64,8 +64,8 @@
 		"tags": "",
 		"body": "<< actorSwitchRightGoblin>> \r\nMy turn.\r\n<< leftPlayer>> \r\nI tried to tell you, we're not actually open!\r\n<< rightSpeaker>> \r\nI’ll respect it if you say so, but it’s a reeeeally simple potion. \r\nPretty please?\r\n<< leftPlayer>> \r\n...I would like to have some human-food money too.\r\n<< rightSpeaker>> \r\nI knew you were cool!\r\n<< leftPlayer>> \r\nWhat can I do for you?\r\n<< rightSpeaker>> \r\nMake the potion from “The Tale of the Mighty Draught”!\r\n<< leftPlayer>> \r\nThe bedtime story??\r\n<< rightSpeaker>> \r\nYes! \r\nThe folks at the adventurer’s guild aren’t taking me seriously, saying my sword is too big for me.\r\n<< leftPlayer>> \r\nRight.\r\n<< rightSpeaker>> \r\nThat’s bollocks, of course.\r\nBut with a strength potion, I could throw them around a lil bit, making them regret underestimating me!\r\n<< leftPlayer>> \r\nI’m not making potions for violence.\r\n<< rightSpeaker>> \r\nAlright, I hear you, I promise to only challenge them to arm wrestling.\r\nHere’s the potion instructions.\r\n<< leftNarrator>> \r\nThe “instructions” are a copy of the popular bedtime story, hastily scribbled on a used napkin.\r\n<< leftPlayer>> \r\n...I’ll see what I can do. I’m sure there’s a strength potion I can use in the witch’s book instead.\r\n<< close>> \r\nPH",
 		"position": {
-			"x": -1205,
-			"y": -1448
+			"x": -1479,
+			"y": -1451
 		},
 		"colorID": 8
 	},
@@ -74,18 +74,18 @@
 		"tags": "",
 		"body": "<<actorSwitchRightGoblin>>\r\nThis is it!\r\n<< leftPlayer>> \r\nYou haven’t even tried it yet.\r\n<< rightSpeaker>> \r\nI don’t need to, I saw you make it just like the story. This is it!\r\n<< leftNarrator>> \r\nShe takes a swig of the strength potion.\r\n<< rightSpeaker>> \r\nYES. I feel the strength rushing through me, I can do anything!\r\n<< leftNarrator>> \r\nShe takes the sword from the prince’s hand, holding it up in the air like it weighs nothing.\r\n<< rightSpeaker>> \r\nThank you, potion witch!\r\n<< leftPlayer>> \r\nYou know, there’s a moral to the story.\r\nAbout the nail’s contribution specifically.\r\n<< rightSpeaker>> \r\nI know the moral! All 4 friends had to work together and use their differences to make something great!\r\n<< leftPlayer>> \r\n*chuckle* I like that interpretation. I hope the potion serves you well.\r\n<< rightSpeaker>> \r\nSpeaking of friends, come over here, little prince.\r\n<< actorSwitchLeftPrinceShining>> \r\nAbsolutely dreadful. My poor, poor nails…\r\n<< rightSpeaker>> \r\nYou did well today! Here’s your payment, the price of a potion.\r\n<< leftNarrator>> \r\nShe puts 4 gold coins on the table. The prince looks exhausted, but proud of himself.\r\n…until the goblin takes a coin away.\r\n<<rightSpeaker>> \r\nAaaand that’s the 25 percent tax paid to the royals.\r\n<< leftNarrator>> \r\nThe prince looks devastated.\r\n<< rightSpeaker>> \r\nHahaha, just kidding! \r\n<<leftSpeaker>>\r\nToying with my delicate heart…\r\nI’ll return with the proper currency next time.\r\n<< rightSpeaker>> \r\nYou’re alright, little prince. Let’s go to the tavern!\r\n<< leftSpeaker>> \r\nThe tavern?\r\n<< rightSpeaker>> \r\nIt’s the best part of any workday! \r\nWe sit together for a meal and toast to a job well done!\r\nIt’s right across the street!\r\n<< leftNarrator>> \r\nThe prince looks appalled.\r\n<< leftSpeaker>> \r\nYou can’t possibly mean… there? \r\nWhere the floors are dirty from spilled beer and soiled boots?\r\nWith those foul-mouthed ruffians?\r\n<< rightSpeaker>> \r\nWith any luck it is! They know how to party!\r\n<<leftSpeaker>>\r\nWell, I’d never…!\r\n<< leftNarrator>> \r\nHe turns his head away, hiding a slight blush\r\n<<leftSpeaker>>\r\nI…\r\nI shouldn’t squander such a… learning opportunity, as you called it. \r\nI shall accompany you to this… tavern.\r\n<< rightSpeaker>> \r\nThat’s the spirit!\r\n<<leftNarrator>>\r\nThe goblin slaps him on the back, and they leave together.\r\n<<actorSwitchLeftNothing>>\r\n<< actorSwitchRightNothing>>\r\n<< leftNarrator>> \r\nThe sun has set and you take a moment to relax.\r\n<< leftPlayer>> \r\nPhew, that’s enough for one day. \r\nIt’s not what I planned, but…\r\n<< rightSpeaker>> \r\nMeow!\r\n<< leftPlayer>> \r\nI agree. I’m happy I got to help them.\r\n<< close>> \r\nPH",
 		"position": {
-			"x": -1414,
-			"y": -1449
+			"x": -1234,
+			"y": -1432
 		},
 		"colorID": 0
 	},
 	{
 		"title": "scene1",
 		"tags": "scene1",
-		"body": "<< leftPlayer>> \r\nSacrefice Dialogue\r\nSurely there’s a lockpick potion in her witch’s book.\r\n“I can switch between the storefront and the lab by clicking the arrow in the corner.\r\n<<close>>\r\n...",
+		"body": "<< leftPlayer>> \r\nSacrefice Dialogue\r\nSurely there’s a lockpick potion in her witch’s book.\r\n<< leftRepeater>> \r\nI can switch between the storefront and the lab by clicking the arrow in the corner.\r\n<<close>>\r\n...",
 		"position": {
-			"x": -1915,
-			"y": -1683
+			"x": -1916,
+			"y": -1686
 		},
 		"colorID": 0
 	},
