@@ -1882,6 +1882,14 @@
         "name": "nothing2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "The messy folder/New dialogue tree.json",
+        "kind": "json",
+        "metadata": "{\"localFilePath\":\"The messy folder/New dialogue tree.json\",\"extension\":\".json\"}",
+        "name": "The messy folder\\New dialogue tree.json",
+        "userAdded": false
       }
     ]
   },
@@ -1908,6 +1916,11 @@
     },
     {
       "name": "dialogueState",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "scene",
       "type": "number",
       "value": 0
     }
