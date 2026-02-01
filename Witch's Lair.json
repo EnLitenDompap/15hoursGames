@@ -847,7 +847,7 @@
         "disablePreload": false,
         "file": "assets/Main Dialogue.json",
         "kind": "json",
-        "metadata": "{\"extension\":\".json\"}",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Main Dialogue.json\"}",
         "name": "Main Dialogue",
         "userAdded": false
       },
@@ -1247,7 +1247,7 @@
       {
         "file": "Art assets/Character Portraits/Dragon_Placeholder.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Art assets/Character Portraits/Dragon_Placeholder.png\",\"extension\":\".png\"}",
         "name": "Art assets\\Character Portraits\\Dragon_Placeholder.png",
         "smoothed": true,
         "userAdded": false
@@ -1618,6 +1618,270 @@
         "name": "Art assets\\UI elements\\Potion Book\\13-14_potion-of-unlocking.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/New dialogue tree.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "New dialogue tree",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Testing yarn file.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "Testing yarn file",
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Dialogue Box UI/Narration_Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Dialogue Box UI\\Narration_Box.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Dialogue Box UI/Player_Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Dialogue Box UI\\Player_Box.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Dialogue Box UI/Repeat_Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Dialogue Box UI\\Repeat_Box.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Dialogue Box UI/Speaker_Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Dialogue Box UI\\Speaker_Box.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Dialogue Box UI/Dragon_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Dialogue Box UI\\Dragon_Icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Dialogue Box UI/Goblin_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Dialogue Box UI\\Goblin_Icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Dialogue Box UI/Prince_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Dialogue Box UI\\Prince_Icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Dialogue Box UI/Vampire_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Dialogue Box UI\\Vampire_Icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Testing yarn file2.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Testing yarn file2.json\"}",
+        "name": "Testing yarn file2",
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Left/Dragon_Placeholder.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Art assets/Character Portraits/Left/Dragon_Placeholder.png\",\"extension\":\".png\"}",
+        "name": "Art assets\\Character Portraits\\Left\\Dragon_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Left/Goblin_Placeholder.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Art assets/Character Portraits/Left/Goblin_Placeholder.png\",\"extension\":\".png\"}",
+        "name": "Art assets\\Character Portraits\\Left\\Goblin_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Left/Prince with Golden Hair.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Art assets/Character Portraits/Left/Prince with Golden Hair.png\",\"extension\":\".png\"}",
+        "name": "Art assets\\Character Portraits\\Left\\Prince with Golden Hair.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Left/Prince.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Art assets/Character Portraits/Left/Prince.png\",\"extension\":\".png\"}",
+        "name": "Art assets\\Character Portraits\\Left\\Prince.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Left/Vampire_Placeholder.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Art assets/Character Portraits/Left/Vampire_Placeholder.png\",\"extension\":\".png\"}",
+        "name": "Art assets\\Character Portraits\\Left\\Vampire_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Right/Dragon_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Right\\Dragon_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Right/Goblin_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Right\\Goblin_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Right/Prince with Golden Hair.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Right\\Prince with Golden Hair.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Right/Prince.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Right\\Prince.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Right/Vampire_Placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Right\\Vampire_Placeholder.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Left/dragon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Left\\dragon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Left/goblin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Left\\goblin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Left/princeGolden.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Left\\princeGolden.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Left/princeNormal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Left\\princeNormal.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Left/vampire.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Art assets\\Character Portraits\\Left\\vampire.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Right/dragon.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Art assets/Character Portraits/Right/dragon.png\",\"extension\":\".png\"}",
+        "name": "Art assets\\Character Portraits\\Right\\dragon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Right/goblin.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Art assets/Character Portraits/Right/goblin.png\",\"extension\":\".png\"}",
+        "name": "Art assets\\Character Portraits\\Right\\goblin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Right/princeGolden.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Art assets/Character Portraits/Right/princeGolden.png\",\"extension\":\".png\"}",
+        "name": "Art assets\\Character Portraits\\Right\\princeGolden.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Right/princeNormal.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Art assets/Character Portraits/Right/princeNormal.png\",\"extension\":\".png\"}",
+        "name": "Art assets\\Character Portraits\\Right\\princeNormal.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Art assets/Character Portraits/Right/vampire.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Art assets/Character Portraits/Right/vampire.png\",\"extension\":\".png\"}",
+        "name": "Art assets\\Character Portraits\\Right\\vampire.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nothing.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nothing",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nothing2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nothing2",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1641,6 +1905,11 @@
       "name": "mouseHasClicked",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "dialogueState",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
